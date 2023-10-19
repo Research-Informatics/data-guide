@@ -1,0 +1,17 @@
+# Site settings
+title: BMC Research Informatics Data Dictionary
+email: cdw@bmc.org
+description: Start here.
+baseurl: "/data-dictionary"
+repository: "https://research-informatics.github.io/data-dictionary/"
+permalinks: pretty
+defaults:
+  -
+    scope:
+      path: "" # Apply to all files
+    values:
+      layout: "default"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
