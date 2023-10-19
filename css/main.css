@@ -29,6 +29,10 @@ img {
     color: #cccccc;
 }
 
+.menu {
+	  color: #553178;
+}
+
 /* Prevent in-page links from scrolling under top nav */
 h2::before, h3::before {
   display: block;
