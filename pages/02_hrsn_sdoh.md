@@ -22,15 +22,14 @@ This resource lists main data elements, patient phenotypes, and algorithms as we
 
 <details>
   <summary><b>Race, Ethnicity, and Language (REL) Data</b></summary>
-  
-* CDW for Research Race and Ethnicity Phenotype 
-* Primary Race
-* Hispanic or Latino culture or origin indicator (Y/N)
-* Primary Ethnicity
-* Primary Language
-* Patient Needs Interpreter Flag
-* Interpreter Usage data
-     
+  <ul>
+<li> CDW for Research Race and Ethnicity Phenotype </li>
+<li> Primary Race </li>
+<li> Hispanic or Latino culture or origin indicator (Y/N) </li>
+<li> Primary Language </li>
+<li> Patient Needs Interpreter Flag </li>
+<li> Interpreter Usage data </li>
+     </ul>
 </details>
 
 <details>
