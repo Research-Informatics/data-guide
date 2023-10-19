@@ -29,10 +29,6 @@ img {
     color: #cccccc;
 }
 
-.menu {
-	  color: #553178;
-}
-
 /* Prevent in-page links from scrolling under top nav */
 h2::before, h3::before {
   display: block;
@@ -202,7 +198,7 @@ html {
 }
 
 .thumbnail h2 {
-    border-left: 2px solid #553178;
+    border-left: 2px solid #337ab7;
     text-decoration: none;
     font-size: 20px;
     padding: 6px;
@@ -211,7 +207,7 @@ html {
 
 .thumbnail h2 a {
     text-decoration: none;
-    color: #00556F;
+    color: #333333;
 }
 
 .well {
@@ -238,7 +234,7 @@ html {
 	}
 
     /* Docs Menu*/
-    .menu, .tsd-navigation {
+    .docs-menu, .tsd-navigation {
         top: 20px;
         position: relative;
     }
@@ -250,14 +246,12 @@ html {
 	}
 
     /* Docs Menu*/
-    .menu, .tsd-navigation {
+    .docs-menu, .tsd-navigation {
         position: fixed;
         overflow: auto;
         top: 90px;
         max-height: 90%;
         max-width: 250px;
-	    color: #553178;
-	    
     }
 
     .content {
