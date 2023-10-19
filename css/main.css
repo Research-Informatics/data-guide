@@ -234,7 +234,7 @@ html {
 	}
 
     /* Docs Menu*/
-    .docs-menu, .tsd-navigation {
+    .menu, .tsd-navigation {
         top: 20px;
         position: relative;
     }
@@ -246,7 +246,7 @@ html {
 	}
 
     /* Docs Menu*/
-    .docs-menu, .tsd-navigation {
+    .menu, .tsd-navigation {
         position: fixed;
         overflow: auto;
         top: 90px;
