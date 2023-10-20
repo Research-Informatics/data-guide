@@ -139,6 +139,7 @@ Data that capture the social construct of race and ethnicity.
 
 
 ### **CDW for Research Race & Ethnicity Phenotype**
+
 |||
 |:----------- | :----------- |
 | Decription | A combined race and ethnicity variable that collapses available race, ethnicity, and Hispanic or Latino culture or origin indicator fields into the following mutually exclusive categories:<ul><li>Hispanic or Latino</li><li>Non-Hispanic Asian </li> <li>Non-Hispanic Black </li> <li>Non-Hispanic white </li><li>Another non-Hispanic race</li><li>Unknown/Declined</li></ul>|
