@@ -79,7 +79,7 @@ This resource lists main data elements, patient phenotypes, and algorithms as we
   <summary><b>Transportation</b></summary>
 
   <ul>
-<li>  BMC THRIVE Screening: Trouble paying for transportation question </ul>li> 
+<li>  BMC THRIVE Screening: Trouble paying for transportation question </li> 
 <li>  BMC THRIVE Resources: Transportation to medical appointments resources requested by patient</li> 
 <li>  Documentation of MassHealth Provider Request for Transportation (PT1) </li> 
 
