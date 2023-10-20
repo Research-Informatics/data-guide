@@ -142,7 +142,7 @@ Data that capture the social construct of race and ethnicity.
 |||
 |:----------- | :----------- |
 |Decription|A combined race and ethnicity variable that collapses available race, ethnicity, and Hispanic or Latino culture or origin indicator fields into the following mutually exclusive categories:<br>&nbsp;&nbsp;&bull;Hispanic or Latino<br>  &nbsp;&nbsp;&bull;Non-Hispanic Asian <br>&nbsp;&nbsp;&bull;Non-Hispanic Black<br> &nbsp;&nbsp;&bull;Non-Hispanic white <br>  &nbsp;&nbsp;&bull;Another non-Hispanic race<br>  &nbsp;&nbsp;&bull;Unknown/Declined<br>|
-|Source|BMC CDW for Research Phenotype |
+|Source|BMC CDW for Research|
 |CDW for Research Logic and/or Recommendations|The CDW for Research combines data from three Epic demographics tab data fields to create a patient phenotype:<br> &nbsp;&nbsp;&bull;Race<br> &nbsp;&nbsp;&bull;Person of Hispanic or Latino Culture or Origin Indicator <br>&nbsp;&nbsp;&bull;Primary Ethnicity|
 |Considerations & Limitations|The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br><br>The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br><br>Further disaggregation of the “non-Hispanic Asian” and “Another non-Hispanic race” is possible but may not be reportable due to small numbers.<br><br>As of June 2022, patients are not able to select more than one race nor ethnicity<br>The CDW for Research is looking into patient-reported Race via MyChart|
 
@@ -205,3 +205,70 @@ Data that capture the patient’s primary language and interactions with interpr
 >|Source|Epic encounter (individual encounter-level)|
 >|CDW for Research Logic and/or Recommendations|Encounter data (encounter-level) (smartform, flowsheet) <br><br>CDW for Research can also provide if a patient has ever used interpreter services at an encounter at BMC if more relevant for the research question.|
 >|Considerations & Limitations|Consider stigmas that may affect a patient's stated preference (link?)|
+
+
+## Housing
+Electronic health record markers that capture whether a patient experienced housing insecurity and/or homelessness. [link to something re housing/homeless/insecurity]
+
+### **CDW for Research Housing Algorithm**
+
+|||
+|:----------- | :----------- |
+|Decription|CDW for Research-created algorithm that uses 8 indicators in the electronic health record to identify experiencing homelessness and/or housing insecurity.|
+|Source|BMC CDW for Research|
+|CDW for Research Logic and/or Recommendations|The algorithm leverages the following data :<br> &nbsp;&nbsp;**1.  BMC THRIVE Screening Housing Insecurity or Homelessness Positive Response**: A response of either “I have a place to live today, but I am worried about losing it in the future” or “I don't have a steady place to live (living with others, hotel, shelter, outside on the street, on a bench, in a car, abandoned building, bus or train station, in a park)” to the BMC THRIVE Screening question: “What is your living situation today?” during the study period. (see below for underlying Epic data detail)<br> &nbsp;&nbsp;**2.	Homelessness on Problem List**: A problem list dx related to housing instability or concerns. (see below for underlying Epic data detail)<br> &nbsp;&nbsp;**3.	Homelessness as Encounter Diagnosis**: Patient identified homeless during a visit or encounter.<br> &nbsp;&nbsp;**4.	Registration Indicator**: Patient was identified as homeless during patient registration.<br> &nbsp;&nbsp;**5.	Housing consult**: Any housing consult ordered during the study period.<br> &nbsp;&nbsp;**6.	Address History/Changes**: Patient's address history is queried to determine the number of address changes during study period (instability as defined by MassHealth as >3 address changes in 12 months).<br> &nbsp;&nbsp;**7.	Address is Shelter**: If the patient's address in medical record is the address of a known homeless shelter.<br>&nbsp;&nbsp;**8.	Historical Shelter Address**: If the patient was ever known to have an address at a homeless shelter.|
+|Considerations & Limitations|Casts widest net to determine if a patient has ever experienced housing insecurity or homelessness during the study period; update with sensitivity analysis when complete |
+
+>### **CDW for Research Housing Algorithm Components**
+>>#### **BMC Thrive Screening: Housing Question**
+>>
+>>|||
+>>|:----------- | :----------- |
+>>|Description|BMC THRIVE Screening Housing Insecurity or Homelessness **Positive** Response to the question: *What is your living situation today?*<br> &nbsp;&nbsp;&bull;I have a place to live today, but I am worried about losing it in the future<br> &nbsp;&nbsp;&bull;I don't have a steady place to live (living with others, hotel, shelter, outside on the street, on a bench, in a car, abandoned building, bus or train station, in a park) |
+>>|Source|BMC THRIVE Screening Results in Epic|
+>>|CDW for Research Logic and/or Recommendations|The BMC THRIVE Screening tool does not have an aggregate score; we recommend using individual items as relevant to the research question.|
+>>|Considerations & Limitations|May undercapture patients experiencing any form of housing instability.<br><br>The BMC THRIVE Screening is BMC health system-specific data; difficult to compare to other systems.|
+
+>>#### **ICD-10 Code for Homelessness**
+>>
+>>|||
+>>|:----------- | :----------- |
+>>|Description|Presence of **ICD-10 Z59.0** [Homelessness] added to a patient’s medical record via:<br> &nbsp;&nbsp;&bull;  Clinician entered via problem list <br> &nbsp;&nbsp;&bull;  Diagnosis associated with an encounter diagnoses<br> &nbsp;&nbsp;&bull;  I don't have a steady place to live (living with others, hotel, shelter, outside on the street, on a bench, in a car, abandoned building, bus or train station, in a park) |
+>>|Source|Epic patient problem list & encounter dx; BMC Thrive|
+>>|CDW for Research Logic and/or Recommendations| |
+>>|Considerations & Limitations|May undercapture patients experiencing any form of housing instability.<br><br>Does not differentiate, due to clinical capture and coding limitations, between insecurity and homelessness.|
+>>
+
+>>#### **Housing Consult**
+>>
+>>|||
+>>|:----------- | :----------- |
+>>|Description|Presence of **ICD-10 Z59.0** [Homelessness] added to a patient’s medical record via:<br> &nbsp;&nbsp;&bull;  Clinician entered via problem list <br> &nbsp;&nbsp;&bull;  Diagnosis associated with an encounter diagnoses<br> &nbsp;&nbsp;&bull;  I don't have a steady place to live (living with others, hotel, shelter, outside on the street, on a bench, in a car, abandoned building, bus or train station, in a park) |
+>>|Source|Epic patient problem list & encounter dx; BMC Thrive|
+>>|CDW for Research Logic and/or Recommendations| |
+>>|Considerations & Limitations|May undercapture patients experiencing any form of housing instability.<br><br>Does not differentiate, due to clinical capture and coding limitations, between insecurity and homelessness.|
+
+>>#### **Address History/Changes **
+>>
+>>|||
+>>|:----------- | :----------- |
+>>|Description|Presence of **ICD-10 Z59.0** [Homelessness] added to a patient’s medical record via:<br> &nbsp;&nbsp;&bull;  Clinician entered via problem list <br> &nbsp;&nbsp;&bull;  Diagnosis associated with an encounter diagnoses<br> &nbsp;&nbsp;&bull;  I don't have a steady place to live (living with others, hotel, shelter, outside on the street, on a bench, in a car, abandoned building, bus or train station, in a park) |
+>>|Source|Epic patient problem list & encounter dx; BMC Thrive|
+>>|CDW for Research Logic and/or Recommendations| |
+>>|Considerations & Limitations|May undercapture patients experiencing any form of housing instability.<br><br>Does not differentiate, due to clinical capture and coding limitations, between insecurity and homelessness.|
+>>
+
+>>#### **Shelter Address**
+>>
+>>|||
+>>|:----------- | :----------- |
+>>|Description|Patient's address in medical record is the address of a known homeless shelter or they have a known history of residing in a shelter.|
+>>|Source|CDW for Research list of area shelters; Epic registration address|
+>>|CDW for Research Logic and/or Recommendations| |
+>>|Considerations & Limitations|May undercapture patients experiencing any form of housing instability.<br><br>Does not differentiate, due to clinical capture and coding limitations, between insecurity and homelessness.|
+>>
+
+
+
+Given the complexities of social circumstance, the CDW for Research leverages multiple aspects of the medical record in their aggregations. 
+
