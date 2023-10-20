@@ -164,7 +164,7 @@ Data that capture the social construct of race and ethnicity.
 >>|Source|Epic medical record, demographics tab (patient-level)|
 >>|CDW for Research Logic and/or Recommendations|Disaggregated data be used if research question exams Hispanic or Latino Culture or Origin beyond the CDW for Research patient phenotype; however, BMC included “Hispanic or Latino” as an option for race from 2018-XXXX; as such, disaggregation of race/Hispanic indicator/ethnicity fields is not advised|
 >>|Considerations & Limitations|This data field is often colloquially referred to as “ethnicity” but does not contain detailed ethnicity data; it functions only as an indicator (Y/N) of Hispanic or Latino culture or origin.<br><br>Data are generally entered into a patient’s record by clinical staff and may not be patient-reported.<br><br>Response options for the current “Primary Ethnicity” field whereas included as a race category inas response options for the “Race” variable in Epic from 2020-2021; approx. XX% of patients have conflicting race and ethnicity data (e.g., Hispanic or Latino listed as race and Non-Hispanic or Latino listed as ethnicity)|
-
+<br>
 >>#### **Primary Ethnicity (raw Epic data field)**
 >>
 >>|||
@@ -185,8 +185,7 @@ Data that capture the patient’s primary language and interactions with interpr
 >|Source|Epic medical record, demographics tab (patient-level)|
 >|CDW for Research Logic and/or Recommendations| |
 >|Considerations & Limitations|Patient may have different preferences in writtern & spoken lanaguge <br><br>Patient preferences regarding a language may differ from a language they primarily speak at home<br><br>Consider stigmas that may affect a patient's stated preference (link?)|
-
-
+<br>
 >### **Needs Interpreter Flag**
 >
 >|||
@@ -195,7 +194,7 @@ Data that capture the patient’s primary language and interactions with interpr
 >|Source|Epic medical record (patient-level)|
 >|CDW for Research Logic and/or Recommendations|CDW for Research can also provide if a patient has ever used interpreter services at an encounter at BMC if more relevant for the research question.|
 >|Considerations & Limitations|Consider stigmas that may affect a patient's stated preference (link?)|
-
+<br>
 >### **Interpreter Usage**
 >
 >|||
