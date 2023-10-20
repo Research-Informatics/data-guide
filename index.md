@@ -1,5 +1,5 @@
 ---
-title: Researach Informatics Data Dictionary
+title: Research Informatics Data Dictionary
 layout: default
 ---
 
