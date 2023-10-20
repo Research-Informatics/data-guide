@@ -78,7 +78,7 @@ This resource lists main data elements, patient phenotypes, and algorithms as we
 </details>
 
 <details>
-  <summary><b>Transportation</b></summary>
+  <summary><b>TRANSPORT</b></summary>
 
   <ul>
 <li>  BMC THRIVE Screening: Trouble paying for transportation question </ul>li> 
