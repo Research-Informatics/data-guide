@@ -178,7 +178,6 @@ Data that capture the social construct of race and ethnicity.
 Data that capture the patient’s primary language and interactions with interpreter services.
 
 >### **Primary Language**
-
 >|||
 >|:----------- | :----------- |
 >|Decription|Patient primary language. XXX Response Options. See Appendix for all options.|
@@ -188,7 +187,6 @@ Data that capture the patient’s primary language and interactions with interpr
 
 
 >### **Needs Interpreter Flag**
-
 >|||
 >|:----------- | :----------- |
 >|Decription|A flag used to indicate whether a patient requires an interpreter and, if so, services in what language.|
@@ -197,7 +195,6 @@ Data that capture the patient’s primary language and interactions with interpr
 >|Considerations & Limitations|Consider stigmas that may affect a patient's stated preference (link?)|
 
 >### **Interpreter Usage**
-
 >|||
 >|:----------- | :----------- |
 >|Decription|Documentation that an interpreter was used during a specific encounter.<br><br>Data are from an individual encounter. The data fields that can be extracted are:<br>&nbsp;&nbsp;&bull;Information for the encounter at which interpreter services were used, including date, clinic, appointment type, etc.<br>&nbsp;&nbsp;&bull;Language in which services were provided|
