@@ -140,34 +140,27 @@ Data that capture the social construct of race and ethnicity.
 
 |||
 |:----------- | :----------- |
-| Decription | A combined race and ethnicity variable that collapses available race, ethnicity, and Hispanic or Latino culture or origin indicator fields into the following mutually exclusive categories:<br>&nbsp;&nbsp;&bull;Hispanic or Latino<br>  &nbsp;&nbsp;&bull;Non-Hispanic Asian <br>&nbsp;&nbsp;&bull;Non-Hispanic Black<br> &nbsp;&nbsp;&bull;Non-Hispanic white <br>  &nbsp;&nbsp;&bull;Another non-Hispanic race<br>  &nbsp;&nbsp;&bull;Unknown/Declined<br>|
-| Source | BMC CDW for Research Phenotype |
-| CDW for Research Logic and/or Recommendations | The CDW for Research combines data from three Epic demographics tab data fields to create a patient phenotype:<br> &nbsp;&nbsp;&bull;Race<br> &nbsp;&nbsp;&bull;Person of Hispanic or Latino Culture or Origin Indicator <br>&nbsp;&nbsp;&bull;Primary Ethnicity|
-| Considerations & Limitations |The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br><br>The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br><br>Further disaggregation of the “non-Hispanic Asian” and “Another non-Hispanic race” is possible but may not be reportable due to small numbers.<br><br>As of June 2022, patients are not able to select more than one race nor ethnicity<br>The CDW for Research is looking into patient-reported Race via MyChart|
+|Decription|A combined race and ethnicity variable that collapses available race, ethnicity, and Hispanic or Latino culture or origin indicator fields into the following mutually exclusive categories:<br>&nbsp;&nbsp;&bull;Hispanic or Latino<br>  &nbsp;&nbsp;&bull;Non-Hispanic Asian <br>&nbsp;&nbsp;&bull;Non-Hispanic Black<br> &nbsp;&nbsp;&bull;Non-Hispanic white <br>  &nbsp;&nbsp;&bull;Another non-Hispanic race<br>  &nbsp;&nbsp;&bull;Unknown/Declined<br>|
+|Source|BMC CDW for Research Phenotype |
+|CDW for Research Logic and/or Recommendations|The CDW for Research combines data from three Epic demographics tab data fields to create a patient phenotype:<br> &nbsp;&nbsp;&bull;Race<br> &nbsp;&nbsp;&bull;Person of Hispanic or Latino Culture or Origin Indicator <br>&nbsp;&nbsp;&bull;Primary Ethnicity|
+|Considerations & Limitations|The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br><br>The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br><br>Further disaggregation of the “non-Hispanic Asian” and “Another non-Hispanic race” is possible but may not be reportable due to small numbers.<br><br>As of June 2022, patients are not able to select more than one race nor ethnicity<br>The CDW for Research is looking into patient-reported Race via MyChart|
 
 >### **CDW for Research Race & Ethnicity Phenotype Components**
 >>### **RACE (raw Epic data field)**
 >>
 >>|||
 >>|:----------- | :----------- |
->>| Description | The race of the patient as captured in the medical record. 20 Response Options. See Appendix for all options.|
->>| Source |Epic medical record, demographics tab (patient-level)|
->>|  CDW for Research Logic and/or Recommendations |Disaggregated data can be used if research question examines race categories beyond the CDW for Research patient phenotype.|
->>|Considerations & Limitations| <ul><li>Data are entered into a patient’s record by clinical staff and may not be patient-reported.</li> <li>Patients are not able to select more than one race nor ethnicity  </li> </ul>|
-
-
-#### test table 
-
-||
-|:-----------|
-|&bull; First<br> &bull; Second<br> &bull; Third |
+>>|Description|The race of the patient as captured in the medical record. 20 Response Options. See Appendix for all options.|
+>>|Source|Epic medical record, demographics tab (patient-level)|
+>>|CDW for Research Logic and/or Recommendations|Disaggregated data can be used if research question examines race categories beyond the CDW for Research patient phenotype.|
+>>|Considerations & Limitations|Data are entered into a patient’s record by clinical staff and may not be patient-reported.<br><br>Patients are not able to select more than one race nor ethnicity|
 
 
 >>### **PERSON OF HISPANIC OR LATINO CULTURE OR ORIGIN INDICATOR (raw Epic data field)**
 >>
 >>|||
 >>|:----------- | :----------- |
->>| Description | Indicator for a person of Hispanic or Latino culture or origin, regardless of race, as captured in the medical record. There are 4 possible response options:|
->>| Source |Epic medical record, demographics tab (patient-level)|
->>|  CDW for Research Logic and/or Recommendations |Disaggregated data be used if research question exams Hispanic or Latino Culture or Origin beyond the CDW for Research patient phenotype; however, BMC included “Hispanic or Latino” as an option for race from 2018-XXXX; as such, disaggregation of race/Hispanic indicator/ethnicity fields is not advised|
->>|Considerations & Limitations| <ul><li>This data field is often colloquially referred to as “ethnicity” but does not contain detailed ethnicity data; it functions only as an indicator (Y/N) of Hispanic or Latino culture or origin. </li> <li>•	Data are generally entered into a patient’s record by clinical staff and may not be patient-reported. </li> <li>Response options for the current “Primary Ethnicity” field whereas included as a race category inas response options for the “Race” variable in Epic from 2020-2021; approx. XX% of patients have conflicting race and ethnicity data (e.g., Hispanic or Latino listed as race and Non-Hispanic or Latino listed as ethnicity)</li></ul>|
+>>|Description|Indicator for a person of Hispanic or Latino culture or origin, regardless of race, as captured in the medical record. There are 4 possible response options:<br>&nbsp;&nbsp;&bull;Yes<br>  &nbsp;&nbsp;&bull;No<br>&nbsp;&nbsp;&bull;Don't Know<br> &nbsp;&nbsp;&bull;Declined|
+>>|Source|Epic medical record, demographics tab (patient-level)|
+>>|CDW for Research Logic and/or Recommendations|Disaggregated data be used if research question exams Hispanic or Latino Culture or Origin beyond the CDW for Research patient phenotype; however, BMC included “Hispanic or Latino” as an option for race from 2018-XXXX; as such, disaggregation of race/Hispanic indicator/ethnicity fields is not advised|
+>>|Considerations & Limitations|This data field is often colloquially referred to as “ethnicity” but does not contain detailed ethnicity data; it functions only as an indicator (Y/N) of Hispanic or Latino culture or origin.<br><br>Data are generally entered into a patient’s record by clinical staff and may not be patient-reported.<br><br>Response options for the current “Primary Ethnicity” field whereas included as a race category inas response options for the “Race” variable in Epic from 2020-2021; approx. XX% of patients have conflicting race and ethnicity data (e.g., Hispanic or Latino listed as race and Non-Hispanic or Latino listed as ethnicity)|
