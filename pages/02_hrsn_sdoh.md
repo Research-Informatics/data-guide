@@ -155,6 +155,14 @@ Data that capture the social construct of race and ethnicity.
 >>|  CDW for Research Logic and/or Recommendations |Disaggregated data can be used if research question examines race categories beyond the CDW for Research patient phenotype.|
 >>|Considerations & Limitations| <ul><li>Data are entered into a patient’s record by clinical staff and may not be patient-reported.</li> <li>Patients are not able to select more than one race nor ethnicity  </li> </ul>|
 
+
+#### test table 
+
+||
+|:-----------|
+|<ul><li>item1</li><li>item2</li></ul>|
+
+
 >>### **PERSON OF HISPANIC OR LATINO CULTURE OR ORIGIN INDICATOR (raw Epic data field)**
 >>
 >>|||
