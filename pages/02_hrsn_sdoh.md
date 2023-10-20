@@ -160,7 +160,7 @@ Data that capture the social construct of race and ethnicity.
 
 ||
 |:-----------|
-|<ul><li>item1</li><li>item2</li></ul>|
+|&bull; First<br> &bull; Second<br> &bull; Third |
 
 
 >>### **PERSON OF HISPANIC OR LATINO CULTURE OR ORIGIN INDICATOR (raw Epic data field)**
