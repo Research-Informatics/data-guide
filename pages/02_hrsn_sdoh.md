@@ -140,6 +140,7 @@ Data that capture the social construct of race and ethnicity.
 
 |||
 |:----------- | :----------- |
+| Decription | A combined race and ethnicity variable that collapses available race, ethnicity, and Hispanic or Latino culture or origin indicator fields into the following mutually exclusive categories:<br> &bull;Hispanic or Latino<br> &bull;Non-Hispanic Asian <br> &bull;Non-Hispanic Black<br> &bull;Non-Hispanic white <br> &bull;Another non-Hispanic race<br> &bull;Unknown/Declined<br>|
 | Decription | A combined race and ethnicity variable that collapses available race, ethnicity, and Hispanic or Latino culture or origin indicator fields into the following mutually exclusive categories:</br> &bull;Hispanic or Latino</br> &bull;Non-Hispanic Asian </br> &bull;Non-Hispanic Black</br> &bull;Non-Hispanic white </br> &bull;Another non-Hispanic race</br> &bull;Unknown/Declined</br>|
 | Source | BMC CDW for Research Phenotype |
 | CDW for Research Logic and/or Recommendations | The CDW for Research combines data from three Epic demographics tab data fields to create a patient phenotype: <ul><li>Race</li><li>Person of Hispanic or Latino Culture or Origin Indicator </li> <li>Primary Ethnicity</li></ul>|
