@@ -18,7 +18,7 @@ The CDW for Research can work with you to identify specific data to leverage for
 
 This resource lists main data elements, patient phenotypes, and algorithms as well as discrete underlying data fields that could also be leveraged as relevant to research studies. Data are displayed as:
 
-## Data Domains and Available Data Fields 
+## **DATA DOMAINS & AVAILABLE DATA FIELDS**
 
 <details>
   <summary><b>Race, Ethnicity, and Language (REL) Data</b></summary>
