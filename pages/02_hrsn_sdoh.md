@@ -71,14 +71,12 @@ This resource lists main data elements, patient phenotypes, and algorithms as we
 <ul>
 <li> BMC THRIVE Screening: Trouble paying for heat or electricity question </li>
 <li> BMC THRIVE Resources: Utilities resources requested by patient </li>
-<li> Utilities Shut-off Protection Letter Issuance </ul>
-
-</ul>
+<li> Utilities Shut-off Protection Letter Issuance </li> </ul>
 
 </details>
 
 <details>
-  <summary><b>TRANSPORT</b></summary>
+  <summary><b>Transportation</b></summary>
 
   <ul>
 <li>  BMC THRIVE Screening: Trouble paying for transportation question </ul>li> 
