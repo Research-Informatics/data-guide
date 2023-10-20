@@ -1,5 +1,6 @@
 ---
 title: Health Related Social Needs and Social Determinants of Health
+layout: default
 ---
 
   
