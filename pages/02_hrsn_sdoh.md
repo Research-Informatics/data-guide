@@ -147,7 +147,7 @@ Data that capture the social construct of race and ethnicity.
 |Considerations & Limitations|The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br><br>The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br><br>Further disaggregation of the “non-Hispanic Asian” and “Another non-Hispanic race” is possible but may not be reportable due to small numbers.<br><br>As of June 2022, patients are not able to select more than one race nor ethnicity<br>The CDW for Research is looking into patient-reported Race via MyChart|
 
 >### **CDW for Research Race & Ethnicity Phenotype Components**
->>### **Race (raw Epic data field)**
+>>#### **Race (raw Epic data field)**
 >>
 >>|||
 >>|:----------- | :----------- |
@@ -156,7 +156,7 @@ Data that capture the social construct of race and ethnicity.
 >>|CDW for Research Logic and/or Recommendations|Disaggregated data can be used if research question examines race categories beyond the CDW for Research patient phenotype.|
 >>|Considerations & Limitations|Data are entered into a patient’s record by clinical staff and may not be patient-reported.<br><br>Patients are not able to select more than one race nor ethnicity|
 
->>### **Person of Hispanic of Latino Culture or Origin Indicator (raw Epic data field)**
+>>#### **Person of Hispanic of Latino Culture or Origin Indicator (raw Epic data field)**
 >>
 >>|||
 >>|:----------- | :----------- |
@@ -165,7 +165,7 @@ Data that capture the social construct of race and ethnicity.
 >>|CDW for Research Logic and/or Recommendations|Disaggregated data be used if research question exams Hispanic or Latino Culture or Origin beyond the CDW for Research patient phenotype; however, BMC included “Hispanic or Latino” as an option for race from 2018-XXXX; as such, disaggregation of race/Hispanic indicator/ethnicity fields is not advised|
 >>|Considerations & Limitations|This data field is often colloquially referred to as “ethnicity” but does not contain detailed ethnicity data; it functions only as an indicator (Y/N) of Hispanic or Latino culture or origin.<br><br>Data are generally entered into a patient’s record by clinical staff and may not be patient-reported.<br><br>Response options for the current “Primary Ethnicity” field whereas included as a race category inas response options for the “Race” variable in Epic from 2020-2021; approx. XX% of patients have conflicting race and ethnicity data (e.g., Hispanic or Latino listed as race and Non-Hispanic or Latino listed as ethnicity)|
 
->>### **Primary Ethnicity (raw Epic data field)**
+>>#### **Primary Ethnicity (raw Epic data field)**
 >>
 >>|||
 >>|:----------- | :----------- |
@@ -178,6 +178,7 @@ Data that capture the social construct of race and ethnicity.
 Data that capture the patient’s primary language and interactions with interpreter services.
 
 >### **Primary Language**
+>
 >|||
 >|:----------- | :----------- |
 >|Decription|Patient primary language. XXX Response Options. See Appendix for all options.|
@@ -187,6 +188,7 @@ Data that capture the patient’s primary language and interactions with interpr
 
 
 >### **Needs Interpreter Flag**
+>
 >|||
 >|:----------- | :----------- |
 >|Decription|A flag used to indicate whether a patient requires an interpreter and, if so, services in what language.|
@@ -195,6 +197,7 @@ Data that capture the patient’s primary language and interactions with interpr
 >|Considerations & Limitations|Consider stigmas that may affect a patient's stated preference (link?)|
 
 >### **Interpreter Usage**
+>
 >|||
 >|:----------- | :----------- |
 >|Decription|Documentation that an interpreter was used during a specific encounter.<br><br>Data are from an individual encounter. The data fields that can be extracted are:<br>&nbsp;&nbsp;&bull;Information for the encounter at which interpreter services were used, including date, clinic, appointment type, etc.<br>&nbsp;&nbsp;&bull;Language in which services were provided|
