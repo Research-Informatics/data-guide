@@ -140,7 +140,7 @@ Data that capture the social construct of race and ethnicity.
 
 ### **CDW for Research Race & Ethnicity Phenotype**
 
-|||
+|header|test|
 |:----------- | :----------- |
 | CDW for Research Logic and/or Recommendations | The CDW for Research combines data from three Epic demographics tab data fields to create a patient phenotype:<ul><li>Race</li><li>Person of Hispanic or Latino Culture or Origin Indicator </li> <li>Primary Ethnicity</li></ul>|
 | Considerations & Limitations |<ul><li>The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.</li> <li>The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research. </li> <li> Further disaggregation of the “non-Hispanic Asian” and “Another non-Hispanic race” is possible but may not be reportable due to small numbers</li><li>As of June 2022, patients are not able to select more than one race nor ethnicity </li><li>The CDW for Research is looking into patient-reported Race via MyChart </li>
