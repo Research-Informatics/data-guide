@@ -6,9 +6,9 @@ title: Health Related Social Needs and Social Determinants of Health
 ## Health Related Social Needs and Social Determinants of Health
 This resource describes social determinants of health (SDOH), health-related social needs, and other data fields relevant to health equity research that are available from the CDW for Research – including data definitions, descriptions, sources, and limitations.
 
-Given the nature of SDOH data, available data fields are dynamic and often evolve in various clinical and data systems. Reach out to the cdw@bmc.org with questions.
+Given the nature of SDOH data, available data fields are dynamic and often evolve in various clinical and data systems. Reach out to the [cdw@bmc.org](mailto:cdw@bmc.org) with questions.
 
-The document outlines data available in Epic. If you are interested in SDOH data prior to Epic implementation (prior to June 2015), e-mail our team at cdw@bmc.org to discuss options for data available from legacy systems.
+The document outlines data available in Epic. If you are interested in SDOH data prior to Epic implementation (prior to June 2015), e-mail our team at [cdw@bmc.org](mailto:cdw@bmc.org) to discuss options for data available from legacy systems.
 
 ## Using this Document to Select Study-Relevant Data: A Comment on Health Equity Tourism
 
@@ -142,8 +142,6 @@ Data that capture the social construct of race and ethnicity.
 
 |||
 |:----------- | :----------- |
-| Decription | A combined race and ethnicity variable that collapses available race, ethnicity, and Hispanic or Latino culture or origin indicator fields into the following mutually exclusive categories:<ul><li>Hispanic or Latino</li><li>Non-Hispanic Asian </li> <li>Non-Hispanic Black </li> <li>Non-Hispanic white </li><li>Another non-Hispanic race</li><li>Unknown/Declined</li></ul>
-| Source | BMC CDW for Research Phenotype |
 | CDW for Research Logic and/or Recommendations | The CDW for Research combines data from three Epic demographics tab data fields to create a patient phenotype:<ul><li>Race</li><li>Person of Hispanic or Latino Culture or Origin Indicator </li> <li>Primary Ethnicity</li></ul>|
 | Considerations & Limitations |<ul><li>The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.</li> <li>The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research. </li> <li> Further disaggregation of the “non-Hispanic Asian” and “Another non-Hispanic race” is possible but may not be reportable due to small numbers</li><li>As of June 2022, patients are not able to select more than one race nor ethnicity </li><li>The CDW for Research is looking into patient-reported Race via MyChart </li>
 </ul>
