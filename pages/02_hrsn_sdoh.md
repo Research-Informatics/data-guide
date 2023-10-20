@@ -34,89 +34,103 @@ This resource lists main data elements, patient phenotypes, and algorithms as we
 
 <details>
   <summary><b>Sex, Sexual Orientation, & Gender Identity (SSOGI)</b></summary>
-  
-* Sex (assigned at birth)
-*	Gender Identity
-*	Pronouns
-*	Sexual Orientation
-*	Surgical Procedures
-
+  <ul>
+<li> Sex (assigned at birth) </li>
+<li> Gender Identity </li>
+<li> Pronouns </li>
+<li> Sexual Orientation </li>
+<li> Surgical Procedures </li>
+     </ul>
 </details>
  
 <details>
    <summary><b>Housing</b></summary>
-  
-* CDW for Research housing algorithm
-* BMC THRIVE Screening: Housing question 
-* BMC THRIVE Resources: Housing/Shelter resources requested by patient
-* Epic patient & encounter homeless flags
-* ICD-10 codes (encounter & problem list diagnoses)
-
+  <ul>
+<li> CDW for Research housing algorithm </li>
+<li> BMC THRIVE Screening: Housing question </li>
+<li> BMC THRIVE Resources: Housing/Shelter resources requested by patient </li>
+<li> Epic patient & encounter homeless flags </li>
+<li> ICD-10 codes (encounter & problem list diagnoses) </li>
+</ul>
 </details>
 
 <details>
  <summary><b>Food</b></summary>
-  
-* CDW for Research food insecurity & BMC food pantry use algorithm
-* BMC Preventative Food Pantry referrals, letters, & orders
-* BMC THRIVE Screening: Food insecurity risk (2-item Hunger Vital Sign) and food emergency questions
-* BMC THRIVE Resources: Food resources requested by patient
-*	ICD-10 codes (encounter & problem list diagnoses)
+  <ul>
+<li> CDW for Research food insecurity & BMC food pantry use algorithm </li>
+<li> BMC Preventative Food Pantry referrals, letters, & orders </li>
+<li> BMC THRIVE Screening: Food insecurity risk (2-item Hunger Vital Sign) and food emergency questions </li>
+<li> BMC THRIVE Resources: Food resources requested by patient </li>
+<li>	ICD-10 codes (encounter & problem list diagnoses) </li>
 
+</ul>
 </details>
 
 <details>
    <summary><b>Utilities</b></summary>
+<ul>
+<li> BMC THRIVE Screening: Trouble paying for heat or electricity question </li>
+<li> BMC THRIVE Resources: Utilities resources requested by patient </li>
+<li> Utilities Shut-off Protection Letter Issuance </ul>
 
-* BMC THRIVE Screening: Trouble paying for heat or electricity question
-* BMC THRIVE Resources: Utilities resources requested by patient
-* Utilities Shut-off Protection Letter Issuance
+</ul>
 
 </details>
 
 <details>
   <summary><b>Transportation</b></summary>
-  
-* BMC THRIVE Screening: Trouble paying for transportation question
-* BMC THRIVE Resources: Transportation to medical appointments resources requested by patient
-* Documentation of MassHealth Provider Request for Transportation (PT1)
 
+  <ul>
+<li>  BMC THRIVE Screening: Trouble paying for transportation question </ul>li> 
+<li>  BMC THRIVE Resources: Transportation to medical appointments resources requested by patient</li> 
+<li>  Documentation of MassHealth Provider Request for Transportation (PT1) </li> 
+
+</ul>
 
 </details>
 
 <details>
   <summary><b>Country of Origin</b></summary>
-  
-* Birthplace
-* Country of Origin
 
+  <ul>
+<li>  Birthplace </li>
+<li> Country of Origin </li>
+  </ul>
+  
 </details>
 
 <details>
   <summary><b>Economic Stability and Social Connection</b></summary>
+  
+<ul>
+  
+<li>	Primary Health Insurance </li>
+<li>	Secondary Health Insurance </li>
+<li>	Marital status</li>
+<li>	Income </li>
+<li>	Highest Education Level</li>
+<li>	BMC THRIVE Screening: Interested in more education question </li>
+<li>	BMC THRIVE Resources: Education resources requested by patient</li>
+<li>	Insurance</li>
+<li>	Occupation</li>
+<li>	BMC THRIVE Screening: Currently unemployed and looking for a job question</li>
+<li>	BMC THRIVE Resources: Job search/training resources requested by patient</li>
+<li>	BMC THRIVE Screening: Trouble paying for medications</li>
+<li>	BMC THRIVE Resources: Paying for medicine resources requested by patient.</li>
+<li>	BMC THRIVE Screening: Trouble Paying for Medications</li>
 
-*	Primary Health Insurance
-*	Secondary Health Insurance
-*	Marital status
-*	Income
-*	Highest Education Level
-*	BMC THRIVE Screening: Interested in more education question 
-*	BMC THRIVE Resources: Education resources requested by patient
-*	Insurance
-*	Occupation
-*	BMC THRIVE Screening: Currently unemployed and looking for a job question
-*	BMC THRIVE Resources: Job search/training resources requested by patient
-*	BMC THRIVE Screening: Trouble paying for medications
-*	BMC THRIVE Resources: Paying for medicine resources requested by patient.
-*	BMC THRIVE Screening: Trouble Paying for Medications
+</ul>
 
 </details>
 
 <details>
    <summary><b>Neighborhood and Community Context</b></summary>
 
-*	Census tract level geocoding
-*	CDC Social Vulnerability Index (SVI)
+<ul>
+<li>	Census tract level geocoding</li>
+<li>	CDC Social Vulnerability Index (SVI)</li>
+
+</ul>
 
 </details>
 
