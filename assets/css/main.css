@@ -1,225 +1,33 @@
-/* General CSS */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-
-body {
+/* General body styling */
+body { 
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    background-color: #F8F8F8; /* Neutral background for readability */
-    color: #000000; /* Default text color (Black 6C) */
-}
-
-img {
-    max-width: 90%;
-}
-
-/* Custom CSS for home page */
-.hero-spacer {
-    margin-top: 50px;
-}
-
-.hero-feature {
-    margin-bottom: 30px;
-}
-
-.blog-content-wrap {
-    margin-top: 20px;
-    padding-top: 40px;
-}
-
-/* Custom CSS for the docs */
-
-.edit-links {
-    color: #cccccc;
-}
-
-/* Prevent in-page links from scrolling under top nav */
-h2::before, h3::before {
-  display: block;
-  content: " ";
-  margin-top: -80px;
-  height: 80px;
-  visibility: hidden;
-}
-
-/* Custom CSS for header and footer */
-.site-header {
-    width: 100%;
-    background-color: #F8F8F8; /* Neutral color */
+    background-color: #F8F8F8; /* Neutral light gray background */
     color: #000000; /* Black text */
-    padding: 24px 0px;
+    margin: 0;
+    padding: 0;
 }
 
-img.logo {
-    height: 28px;
-    margin-left: -18px;
+/* Explicitly style the main content areas */
+.content, .container, .main {
+    background-color: #FFFFFF; /* Ensure white background for main sections */
+    color: #000000; /* Black text */
+    padding: 20px; /* Add padding for readability */
+    border-radius: 5px; /* Optional rounded corners */
 }
 
-.icon > svg {
-    display: inline-block;
-    width: 28px;
-    height: 28px;
+/* Address unexpected black backgrounds in sections */
+section, header, footer {
+    background-color: #FFFFFF; /* White background for all sections */
+    color: #000000; /* Black text */
 }
 
-.icon > svg path {
-    fill: #333333;
+/* Debugging rule: Ensure all elements with black backgrounds are fixed */
+* {
+    box-shadow: none; /* Remove any dark shadows */
+    outline: none; /* Debug tool for borders */
 }
 
-.thumb-home {
-    height: 340px;
-}
-
-.img-home {
-    height: 150px !important;
-    margin: 10px;
-}
-
-.tableauIcon {
-    background-color: #E97300; /* Accent color the bmc icon*/ 
-    color: #FFFFFF;
-    border-radius: 5px;
-    padding: 8px 15px;
-}
-
-.jumbotron {
-    background-color: #EBAB21; /* Yellow accent */
-    border: 1px solid #E8E8E8;
-    padding: 30px;
-}
-
-#community-jumbo {
-    background-color: #553178; /* Purple accent */
-    color: #FFFFFF; /* White text */
-}
-
-footer {
-    margin: 30px 0;
-    text-align: center;
-    background-color: #F8F8F8; /* Black 6C */
-    color: #000000; /* White text */
-    padding: 20px;
-}
-
-.footer-hr {
-    width: 100%;
-    position: relative;
-}
-
-table {
-    border: 1px solid #00867B; /* Primary color */
-    border-collapse: collapse;
-    margin: 1em 0px;
-    width: 100%;
-}
-
-th {
-    font-weight: bold;
-    border: 1px solid #00867B; /* Primary color */
-    text-align: left;
-    padding: 8px;
-    background-color: #F0F8FF; /* Light blue for headers */
-}
-
-td {
-    border: 1px solid #00867B; /* Primary color */
-    text-align: left;
-    padding: 8px;
-}
-
-/* So the scroll bar width doesn't cause the page to jump */
-html {
-    overflow-y: scroll;
-}
-
-.label {
-    margin-right: 3px;
-}
-
-/* Navbar customization */
-.navbar {
-    background-color: #00867B; /* Primary color */
-    color: #FFFFFF; /* White text */
-}
-
-.navbar a {
-    color: #FFFFFF; /* White text for links */
-}
-
-.navbar a:hover {
-    color: #00556F; /* Darker green hover */
-}
-
-/* Media queries for responsive design */
-@media (max-width: 992px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left, .navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-nav {
-        float: none !important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav > li {
-        float: none;
-    }
-    .navbar-nav > li > a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in {
-        display: block !important;
-    }
-}
-
-/* Docs menu customization */
-@media screen and (min-width: 769px) {
-    .docs-menu, .tsd-navigation {
-        position: fixed;
-        overflow: auto;
-        top: 90px;
-        max-height: 90%;
-        max-width: 250px;
-    }
-
-    .content {
-        position: relative;
-        margin: 40px 0px 0px 275px;
-        max-width: 1000px;
-    }
-
-    .ref-content {
-        margin: 40px 0px 0px 275px;
-        max-width: 1000px;
-    }
-}
-
-/* Responsive grid */
-.column { 
-    float: left; 
-}
-
-.size-1of1 { 
-    width: 100%; 
-}
-
-.size-1of2 { 
-    width: 50%; 
-}
-
-.size-1of3 { 
-    width: 33.333%; 
+/* Example of override */
+.container-dark {
+    background-color: #F0F0F0; /* Lighter neutral */
 }
