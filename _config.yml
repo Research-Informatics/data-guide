@@ -15,3 +15,10 @@ defaults:
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+# Add your custom CSS
+include:
+  - assets/css/main.css  # Add your CSS file path here
+
+sass:
+  style: compressed
