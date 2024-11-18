@@ -3,10 +3,12 @@ layout: docs
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     {% include head.html %}
+    <!-- Link to the custom CSS file -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 
 <body>
@@ -14,7 +16,7 @@ layout: docs
         {% include header.html %}
         {% include menu.html %}
 
-        <div class="content .col-xs-12 .col-sm-8 .col-md-9">
+        <div class="content col-xs-12 col-sm-8 col-md-9">
             <h1>{{ page.title }}</h1>
             <div class="edit-container">
                 <!--<a href="https://github.com/tableau/embedding-playbook/edit/master/{{ page.path }}" class="edit-links"><span class="glyphicon glyphicon-pencil"></span> Edit this page</a>
@@ -23,8 +25,9 @@ layout: docs
             </div>
             <br />
             {{ content }}
-            {% include footer.html %}
         </div>
+
+        {% include footer.html %}
     </div>
 </body>
 
