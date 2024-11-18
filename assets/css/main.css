@@ -217,6 +217,16 @@ html {
     margin-bottom: 40px;
 }
 
+/* Specific styling for docs-menu */
+.well.docs-menu {
+    background-color: #FFFFFF; /* White background for menu */
+    border: 1px solid #00867B; /* Green border for emphasis */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 20px; /* Add consistent spacing */
+    color: #000000; /* Black text */
+}
+
+
 .tsd-navigation {
     padding: 10px !important;
 }
