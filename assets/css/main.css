@@ -73,7 +73,7 @@ img.logo {
 }
 
 .tableauIcon {
-    background-color: #E97300; /* Accent color */
+    background-color: #E97300; /* Accent color the bmc icon*/ 
     color: #FFFFFF;
     border-radius: 5px;
     padding: 8px 15px;
@@ -93,8 +93,8 @@ img.logo {
 footer {
     margin: 30px 0;
     text-align: center;
-    background-color: #000000; /* Black 6C */
-    color: #FFFFFF; /* White text */
+    background-color: #F8F8F8; /* Black 6C */
+    color: #000000; /* White text */
     padding: 20px;
 }
 
