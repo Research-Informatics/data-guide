@@ -43,8 +43,8 @@ h2::before, h3::before {
 /* Custom CSS for header and footer */
 .site-header {
     width: 100%;
-    background-color: #00867B; /* Primary color */
-    color: #FFFFFF; /* White text */
+    background-color: #F8F8F8; /* Neutral color */
+    color: #000000; /* Black text */
     padding: 24px 0px;
 }
 
