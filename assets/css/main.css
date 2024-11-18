@@ -3,6 +3,8 @@
 
 body {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+color: #212529; /* Dark gray text */
+    background-color: #ffffff; /* White background */
 }
 
 img {
