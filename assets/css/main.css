@@ -244,6 +244,30 @@ html {
 }
 
 
+/* Hover effect for menu items */
+.nav-list > li > a:hover {
+    background-color: #EAE6F8; /* Light purple */
+    color: #553178; /* Dark purple */
+}
+
+/* Submenu styling */
+.nav-list ul {
+    list-style-type: none; /* Remove bullets from submenus */
+    padding-left: 20px; /* Indent submenu items */
+    margin: 0;
+}
+
+.nav-list ul li a {
+    font-size: 14px; /* Smaller font for submenu links */
+    color: #00556F; /* Default dark teal for submenu links */
+}
+
+.nav-list ul li a:hover {
+    color: #553178; /* Dark purple for hover */
+    background-color: #EAE6F8; /* Light purple background */
+}
+
+
 .tsd-navigation {
     padding: 10px !important;
 }
