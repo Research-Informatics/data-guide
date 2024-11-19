@@ -16,12 +16,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            // Allow navigation even if submenu exists
-            if (link.getAttribute('href') && link.getAttribute('href') !== '#') {
-                window.location.href = link.getAttribute('href'); // Navigate to the target link
+            // Allow navigation to the href if it's not just "#"
+            const href = link.getAttribute('href');
+            if (href && href !== '#') {
+                // Allow browser to handle navigation normally
+                window.location.href = href;
             }
 
-            e.preventDefault(); // Prevent default only for toggling logic
+            // Prevent default only for submenu toggle (not navigation)
+            e.preventDefault();
         });
     });
 });
