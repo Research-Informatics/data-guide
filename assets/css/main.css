@@ -216,7 +216,28 @@ html {
     background-color: #ffffff;
     margin-bottom: 40px;
 }
+/* Hide submenus by default */
+.submenu {
+    display: none; /* Initially hide all submenus */
+    padding-left: 15px; /* Indent submenus */
+}
 
+/* Show submenu when active */
+.submenu.active {
+    display: block; /* Show submenu */
+}
+
+/* Add a hover effect for toggle links */
+.toggle-menu {
+    cursor: pointer;
+    color: #00556F; /* Default link color */
+    text-decoration: none;
+}
+
+.toggle-menu:hover {
+    color: #00867B; /* Hover color */
+    text-decoration: underline;
+}
 /* Specific styling for docs-menu */
 .well.docs-menu {
     background-color: #FFFFFF; /* White background for menu */
