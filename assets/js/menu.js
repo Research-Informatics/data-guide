@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     arrow.classList.add('fa-chevron-right');
                 }
             }
+            if (!target) {
+    return; // Allow navigation if no submenu is present
+}
         });
     });
 });
