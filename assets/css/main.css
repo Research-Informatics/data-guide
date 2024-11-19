@@ -227,6 +227,23 @@ html {
 }
 
 
+/* Styling for the main navigation list */
+.nav-list {
+    list-style-type: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+/* Style for top-level menu links */
+.nav-list > li > a {
+    color: #00556F; /* Default link color */
+    text-decoration: none; /* No underline */
+    padding: 8px 10px; /* Adds spacing inside each item */
+    display: block; /* Make the whole row clickable */
+    border-radius: 5px; /* Optional rounded corners for better UX */
+}
+
+
 .tsd-navigation {
     padding: 10px !important;
 }
