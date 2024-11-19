@@ -4,7 +4,7 @@ layout: default
 ---
 
   
-## Health Related Social Needs and Social Determinants of Health
+## Health Related Social Needs and Social Determinants of Health {#hrsn}
 This resource describes social determinants of health (SDOH), health-related social needs, and other data fields relevant to health equity research that are available from the CDW for Research – including data definitions, descriptions, sources, and limitations.
 
 Given the nature of SDOH data, available data fields are dynamic and often evolve in various clinical and data systems. Reach out to the [cdw@bmc.org](mailto:cdw@bmc.org) with questions.
@@ -134,7 +134,7 @@ This resource lists main data elements, patient phenotypes, and algorithms as we
 </details>
 
 
-## Race & Ethnicity
+## Race & Ethnicity {#rel}
 Data that capture the social construct of race and ethnicity.
 
 ### **CDW for Research Race & Ethnicity Phenotype**
@@ -207,7 +207,7 @@ Data that capture the patient’s primary language and interactions with interpr
 >|Considerations & Limitations|Consider stigmas that may affect a patient's stated preference (link?)|
 
 
-## Housing
+## Housing {#housing}
 Electronic health record markers that capture whether a patient experienced housing insecurity and/or homelessness. [link to something re housing/homeless/insecurity]
 
 ### **CDW for Research Housing Algorithm**
