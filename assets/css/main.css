@@ -241,14 +241,14 @@ html {
 
 /* Default arrow styling */
 .toggle-menu .toggle-arrow {
-    font-size: 12px;
+    font-size: 12px; /* Adjust size as needed */
     margin-left: 8px; /* Space between text and arrow */
-    transition: transform 0.3s ease; /* Smooth animation */
+    transition: transform 0.3s ease; /* Smooth rotation */
 }
 
-/* Rotate arrow when submenu is expanded */
+/* Rotate arrow when submenu is active */
 .submenu.active + .toggle-menu .toggle-arrow {
-    transform: rotate(90deg); /* Rotate to indicate expanded */
+    transform: rotate(90deg); /* Rotate to point down */
 }
 
 
