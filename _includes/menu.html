@@ -1,18 +1,84 @@
 <div class="well docs-menu col-xs-12 col-sm-4 col-md-3">
     {% include search_form.html %}
+
     <ul class="nav nav-list">
+        <!-- Main Section: Introduction -->
         <li>
             <a href="{{ site.baseurl }}/">Introduction</a>
         </li>
+
+        <!-- Main Section: Data Dictionary -->
         <li class="nav-header">Data Dictionary</li>
         <li>
-            <a href="{{ site.baseurl }}/pages/02_hrsn_sdoh">Health Related Social Needs</a>
+            <!-- Subsection: Clinical Data -->
+            <a href="#clinical-data">Clinical Data</a>
             <ul>
-                <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#race--ethnicity">Race & Ethnicity</a></li>
-                <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#language">Language</a></li>
-                <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#housing">Housing</a></li>
-
+                <!-- Subsection of Clinical Data: Demographics -->
+                <li>
+                    <a href="#demographics">Demographics</a>
+                    <ul>
+                        <li><a href="#race-ethnicity">Race & Ethnicity</a></li>
+                        <li><a href="#language">Language</a></li>
+                        <li><a href="#insurance">Insurance</a></li>
+                    </ul>
+                </li>
+                <!-- Subsection of Clinical Data: HRSN -->
+                <li>
+                    <a href="#hrsn">Health Related Social Needs</a>
+                    <ul>
+                        <li><a href="#housing">Housing</a></li>
+                        <li><a href="#food-access">Food Access</a></li>
+                        <li><a href="#transportation">Transportation</a></li>
+                        <li><a href="#utilities">Utilities</a></li>
+                        <li><a href="#thrive">THRIVE</a></li>
+                        <li><a href="#geocoding">Geocoding</a></li>
+                        <li><a href="#other-considerations">Other Considerations</a></li>
+                    </ul>
+                </li>
+                <!-- Subsection of Clinical Data: Specific Populations -->
+                <li>
+                    <a href="#specific-populations">Specific Populations</a>
+                    <ul>
+                        <li><a href="#incarcerated-persons">Incarcerated Persons</a></li>
+                        <li><a href="#immigrants-refugees">Immigrants and Refugees</a></li>
+                        <li><a href="#sex-gender-minorities">Sex and Gender Minorities</a></li>
+                        <li><a href="#part-ii-data">Part II Data</a></li>
+                    </ul>
+                </li>
             </ul>
         </li>
+
+        <!-- Main Section: External Data -->
+        <li>
+            <a href="#external-data">External Data</a>
+            <ul>
+                <li><a href="#ochin-community-connect">OCHIN and Community Connect</a></li>
+                <li><a href="#wellsense-claims">Wellsense Claims</a></li>
+                <li><a href="#other-external-data-sources">Other External Data Sources</a></li>
+            </ul>
+        </li>
+
+        <!-- Main Section: Clinical Trial Recruitment -->
+        <li>
+            <a href="#clinical-trial-recruitment">Clinical Trial Recruitment</a>
+            <ul>
+                <li><a href="#clinical-trial-subsection-1">Subsection 1</a></li>
+                <li><a href="#clinical-trial-subsection-2">Subsection 2</a></li>
+            </ul>
+        </li>
+
+        <!-- Main Section: Data Sharing and Access -->
+        <li>
+            <a href="#data-sharing-access">Data Sharing and Access</a>
+            <ul>
+                <li><a href="#data-sharing-subsection-1">Subsection 1</a></li>
+                <li><a href="#data-sharing-subsection-2">Subsection 2</a></li>
+            </ul>
+        </li>
+
+        <!-- Main Section: Additional Resources -->
+        <li class="nav-header">Additional Resources</li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
     </ul>
 </div>
