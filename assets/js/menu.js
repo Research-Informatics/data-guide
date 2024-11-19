@@ -1,30 +1,25 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const toggleLinks = document.querySelectorAll('.toggle-menu');
+    const toggleButtons = document.querySelectorAll('.toggle-menu');
 
-    toggleLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            const href = link.getAttribute('href');
-            const currentUrl = window.location.href;
+    toggleButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetSelector = button.getAttribute('data-target');
+            const target = document.querySelector(targetSelector);
+            const arrow = button.querySelector('.toggle-arrow');
 
-            // Create absolute URLs for comparison
-            const linkUrl = new URL(href, window.location.origin).href.split('#')[0];
-            const currentPage = window.location.href.split('#')[0];
-
-            if (linkUrl === currentPage) {
-                // Same page: Prevent default behavior and toggle submenu
-                e.preventDefault();
-                const targetSelector = link.getAttribute('data-target');
-                const target = document.querySelector(targetSelector);
-                const arrow = link.querySelector('.fa');
-
-                if (target) {
-                    target.classList.toggle('active'); // Toggle submenu visibility
-                    if (arrow) {
-                        arrow.classList.toggle('expanded'); // Toggle arrow direction
-                    }
+            if (target) {
+                target.classList.toggle('active');
+                const isExpanded = target.classList.contains('active');
+                button.setAttribute('aria-expanded', isExpanded);
+                if (isExpanded) {
+                    arrow.classList.remove('fa-chevron-right');
+                    arrow.classList.add('fa-chevron-down');
+                } else {
+                    arrow.classList.remove('fa-chevron-down');
+                    arrow.classList.add('fa-chevron-right');
                 }
             }
-            // Different page: Allow default navigation
         });
     });
 });
