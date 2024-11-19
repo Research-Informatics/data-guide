@@ -247,7 +247,7 @@ html {
 }
 
 /* Rotate arrow when submenu is active */
-.submenu.active + .toggle-menu .toggle-arrow {
+.toggle-menu .toggle-arrow.expanded {
     transform: rotate(90deg); /* Rotate to point down */
 }
 
