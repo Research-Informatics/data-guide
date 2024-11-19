@@ -1,19 +1,30 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const toggleButtons = document.querySelectorAll('.toggle-button');
+    const toggleLinks = document.querySelectorAll('.toggle-menu');
 
-    toggleButtons.forEach(button => {
-        button.addEventListener('click', (e) => {
-            e.preventDefault(); // Prevent any default behavior
-            const target = document.querySelector(button.getAttribute('data-target'));
-            const arrow = button.querySelector('.fa-chevron-right');
+    toggleLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            const href = link.getAttribute('href');
+            const currentUrl = window.location.href;
 
-            if (target) {
-                target.classList.toggle('active'); // Toggle the "active" class on the submenu
-                if (arrow) {
-                    arrow.classList.toggle('fa-chevron-down'); // Toggle arrow direction
-                    arrow.classList.toggle('fa-chevron-right');
+            // Create absolute URLs for comparison
+            const linkUrl = new URL(href, window.location.origin).href.split('#')[0];
+            const currentPage = window.location.href.split('#')[0];
+
+            if (linkUrl === currentPage) {
+                // Same page: Prevent default behavior and toggle submenu
+                e.preventDefault();
+                const targetSelector = link.getAttribute('data-target');
+                const target = document.querySelector(targetSelector);
+                const arrow = link.querySelector('.fa');
+
+                if (target) {
+                    target.classList.toggle('active'); // Toggle submenu visibility
+                    if (arrow) {
+                        arrow.classList.toggle('expanded'); // Toggle arrow direction
+                    }
                 }
             }
+            // Different page: Allow default navigation
         });
     });
 });
