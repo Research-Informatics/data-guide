@@ -79,7 +79,8 @@ This resource lists main data elements, patient phenotypes, and algorithms, as w
 - Birthplace
 - Country of Origin
 
-### Economic Stability and Social Connection
+<details>
+  <summary><h3>Economic Stability and Social Connection</h3></summary>
 
 - Primary Health Insurance
 - Secondary Health Insurance
@@ -94,6 +95,8 @@ This resource lists main data elements, patient phenotypes, and algorithms, as w
 - BMC THRIVE Resources: Job search/training resources requested by patient
 - BMC THRIVE Screening: Trouble paying for medications
 - BMC THRIVE Resources: Paying for medicine resources requested by patient
+
+</details>
 
 ### Neighborhood and Community Context
 
