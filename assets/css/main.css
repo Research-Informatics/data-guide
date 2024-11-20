@@ -7,6 +7,11 @@ color: #212529; /* Dark gray text */
     background-color: #F8F8F8; /* White background */
 }
 
+h1 {
+    font-size: 2.5em;
+    color: #00867B; /* Primary color from your theme */
+}
+
 img {
     max-width: 90%;
 }
