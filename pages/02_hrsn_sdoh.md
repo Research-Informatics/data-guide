@@ -2,7 +2,6 @@
 title: Health Related Social Needs and Social Determinants of Health 
 layout: default
 ---
-<a id="hrsn"></a>
 This resource describes social determinants of health (SDOH), health-related social needs, and other data fields relevant to health equity research that are available from the CDW for Research—including data definitions, descriptions, sources, and limitations.
 
 Given the nature of SDOH data, available data fields are dynamic and often evolve in various clinical and data systems. Reach out to the [cdw@bmc.org](mailto:cdw@bmc.org) with questions.
