@@ -6,61 +6,36 @@
         <li>
             <a href="{{ site.baseurl }}/">Introduction</a>
         </li>
-
-        <!-- Main Section: Data Dictionary -->
+        
+<!-- Main Section: Data Dictionary -->
+<li>
+    <a href="#data-dictionary" class="toggle-menu" data-target="#data-dictionary-submenu">
+        Data Dictionary <i class="fa fa-chevron-right toggle-arrow"></i>
+    </a>
+    <ul id="data-dictionary-submenu" class="submenu">
+        <!-- Clinical Data -->
         <li>
-            <a href="#data-dictionary" class="toggle-menu" data-target="#data-dictionary-submenu">
-                Data Dictionary <i class="fa fa-chevron-right toggle-arrow"></i>
+            <a href="#clinical-data" class="toggle-menu" data-target="#clinical-data-submenu">
+                Clinical Data <i class="fa fa-chevron-right toggle-arrow"></i>
             </a>
-            <ul id="data-dictionary-submenu" class="submenu">
-                <!-- Clinical Data -->
+            <ul id="clinical-data-submenu" class="submenu">
+                <!-- Demographics -->
                 <li>
-                    <a href="#clinical-data" class="toggle-menu" data-target="#clinical-data-submenu">
-                        Clinical Data <i class="fa fa-chevron-right toggle-arrow"></i>
-                    </a>
-                    <ul id="clinical-data-submenu" class="submenu">
-                        <!-- Demographics -->
-                        <li>
-                            <a href="#demographics" class="toggle-menu" data-target="#demographics-submenu">
-                                Demographics <i class="fa fa-chevron-right toggle-arrow"></i>
-                            </a>
-                            <ul id="demographics-submenu" class="submenu">
-                                <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#rel">Race & Ethnicity</a></li>
-                                <li><a href="#language">Language</a></li>
-                                <li><a href="#insurance">Insurance</a></li>
-                            </ul>
-                        </li>
-    <!-- HRSN -->
-    <li>
-        <a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#hrsn" class="toggle-menu" data-target="#hrsn-submenu">
-            Health Related Social Needs <i class="fa fa-chevron-right toggle-arrow"></i>
-        </a>
-        <ul id="hrsn-submenu" class="submenu">
-            <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#housing">Housing</a></li>
-            <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#food-access">Food Access</a></li>
-            <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#transportation">Transportation</a></li>
-            <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#utilities">Utilities</a></li>
-            <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#thrive">THRIVE</a></li>
-            <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#geocoding">Geocoding</a></li>
-            <li><a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#other-considerations">Other Considerations</a></li>
-        </ul>
-    </li>
-                        <!-- Specific Populations -->
-                        <li>
-                            <a href="{{ site.baseurl }}/pages/spec_populations#specpop" class="toggle-menu" data-target="#specific-populations-submenu">
-                                Specific Populations <i class="fa fa-chevron-right toggle-arrow"></i>
-                            </a>
-                            <ul id="specific-populations-submenu" class="submenu">
-                                <li><a href="{{ site.baseurl }}/pages/spec_populations#incarcerated-persons">Incarcerated Persons</a></li>
-                                <li><a href="#immigrants-refugees">Immigrants and Refugees</a></li>
-                                <li><a href="#sex-gender-minorities">Sex and Gender Minorities</a></li>
-                                <li><a href="#part-ii-data">Part II Data</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <a href="{{ site.baseurl }}/pages/demographics">Demographics</a>
+                </li>
+                <!-- Health Related Social Needs -->
+                <li>
+                    <a href="{{ site.baseurl }}/pages/02_hrsn_sdoh#hrsn">Health Related Social Needs</a>
                 </li>
             </ul>
         </li>
+
+        <!-- Specific Populations -->
+        <li>
+            <a href="{{ site.baseurl }}/pages/spec_populations#specpop">Specific Populations</a>
+        </li>
+    </ul>
+</li>
 
         <!-- Main Section: External Data -->
         <li>
