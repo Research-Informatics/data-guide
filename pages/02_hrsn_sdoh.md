@@ -80,23 +80,29 @@ This resource lists main data elements, patient phenotypes, and algorithms, as w
 - Country of Origin
 
 <details>
-  <summary><h3>Economic Stability and Social Connection</h3></summary>
-
-- Primary Health Insurance
-- Secondary Health Insurance
-- Marital Status
-- Income
-- Highest Education Level
-- BMC THRIVE Screening: Interested in more education question
-- BMC THRIVE Resources: Education resources requested by patient
-- Insurance
-- Occupation
-- BMC THRIVE Screening: Currently unemployed and looking for a job question
-- BMC THRIVE Resources: Job search/training resources requested by patient
-- BMC THRIVE Screening: Trouble paying for medications
-- BMC THRIVE Resources: Paying for medicine resources requested by patient
-
+  <summary>
+    <h3>
+      Economic Stability and Social Connection
+      <span style="font-size: 0.8em; margin-left: 10px;">▼</span>
+    </h3>
+  </summary>
+  <ul style="padding-left: 20px; list-style-type: disc;">
+    <li>Primary Health Insurance</li>
+    <li>Secondary Health Insurance</li>
+    <li>Marital Status</li>
+    <li>Income</li>
+    <li>Highest Education Level</li>
+    <li>BMC THRIVE Screening: Interested in more education question</li>
+    <li>BMC THRIVE Resources: Education resources requested by patient</li>
+    <li>Insurance</li>
+    <li>Occupation</li>
+    <li>BMC THRIVE Screening: Currently unemployed and looking for a job question</li>
+    <li>BMC THRIVE Resources: Job search/training resources requested by patient</li>
+    <li>BMC THRIVE Screening: Trouble paying for medications</li>
+    <li>BMC THRIVE Resources: Paying for medicine resources requested by patient</li>
+  </ul>
 </details>
+
 
 ### Neighborhood and Community Context
 
