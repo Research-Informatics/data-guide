@@ -3,272 +3,240 @@ title: Health Related Social Needs and Social Determinants of Health
 layout: default
 ---
 
-  
 ## Health Related Social Needs and Social Determinants of Health {#hrsn}
-This resource describes social determinants of health (SDOH), health-related social needs, and other data fields relevant to health equity research that are available from the CDW for Research – including data definitions, descriptions, sources, and limitations.
+
+This resource describes social determinants of health (SDOH), health-related social needs, and other data fields relevant to health equity research that are available from the CDW for Research—including data definitions, descriptions, sources, and limitations.
 
 Given the nature of SDOH data, available data fields are dynamic and often evolve in various clinical and data systems. Reach out to the [cdw@bmc.org](mailto:cdw@bmc.org) with questions.
 
-The document outlines data available in Epic. If you are interested in SDOH data prior to Epic implementation (prior to June 2015), e-mail our team at [cdw@bmc.org](mailto:cdw@bmc.org) to discuss options for data available from legacy systems.
+The document outlines data available in Epic. If you are interested in SDOH data prior to Epic implementation (prior to June 2015), email our team at [cdw@bmc.org](mailto:cdw@bmc.org) to discuss options for data available from legacy systems.
+
+---
 
 ## Using this Document to Select Study-Relevant Data: A Comment on Health Equity Tourism
 
-The CDW for Research can work with you to identify specific data to leverage for your study. We encourage research teams to carefully select the data fields that have direct relevance to the research study’s question. The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research. We encourage research teams to read about Health Equity Tourism  and avoid this phenomenon on behalf of the patients we serve. 
+The CDW for Research can work with you to identify specific data to leverage for your study. We encourage research teams to carefully select the data fields that have direct relevance to the research study’s question. The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.
 
-## How this Resource is Organized 
+We encourage research teams to read about Health Equity Tourism and avoid this phenomenon on behalf of the patients we serve.
 
-This resource lists main data elements, patient phenotypes, and algorithms as well as discrete underlying data fields that could also be leveraged as relevant to research studies. Data are displayed as:
+---
 
-## **DATA DOMAINS & AVAILABLE DATA FIELDS**
+## How this Resource is Organized
 
-<details>
-  <summary><b>Race, Ethnicity, and Language (REL) Data</b></summary>
-  <ul>
-<li> CDW for Research Race and Ethnicity Phenotype </li>
-<li> Primary Race </li>
-<li> Hispanic or Latino culture or origin indicator (Y/N) </li>
-<li> Primary Language </li>
-<li> Patient Needs Interpreter Flag </li>
-<li> Interpreter Usage data </li>
-     </ul>
-</details>
+This resource lists main data elements, patient phenotypes, and algorithms, as well as discrete underlying data fields that could also be leveraged as relevant to research studies. Data are displayed as:
 
-<details>
-  <summary><b>Sex, Sexual Orientation, & Gender Identity (SSOGI)</b></summary>
-  <ul>
-<li> Sex (assigned at birth) </li>
-<li> Gender Identity </li>
-<li> Pronouns </li>
-<li> Sexual Orientation </li>
-<li> Surgical Procedures </li>
-     </ul>
-</details>
- 
-<details>
-   <summary><b>Housing</b></summary>
-  <ul>
-<li> CDW for Research housing algorithm </li>
-<li> BMC THRIVE Screening: Housing question </li>
-<li> BMC THRIVE Resources: Housing/Shelter resources requested by patient </li>
-<li> Epic patient & encounter homeless flags </li>
-<li> ICD-10 codes (encounter & problem list diagnoses) </li>
-</ul>
-</details>
+---
 
-<details>
- <summary><b>Food</b></summary>
-  <ul>
-<li> CDW for Research food insecurity & BMC food pantry use algorithm </li>
-<li> BMC Preventative Food Pantry referrals, letters, & orders </li>
-<li> BMC THRIVE Screening: Food insecurity risk (2-item Hunger Vital Sign) and food emergency questions </li>
-<li> BMC THRIVE Resources: Food resources requested by patient </li>
-<li>	ICD-10 codes (encounter & problem list diagnoses) </li>
+## Data Domains & Available Data Fields
 
-</ul>
-</details>
+### Race, Ethnicity, and Language (REL) Data
 
-<details>
-   <summary><b>Utilities</b></summary>
-<ul>
-<li> BMC THRIVE Screening: Trouble paying for heat or electricity question </li>
-<li> BMC THRIVE Resources: Utilities resources requested by patient </li>
-<li> Utilities Shut-off Protection Letter Issuance </li> </ul>
+- CDW for Research Race and Ethnicity Phenotype
+- Primary Race
+- Hispanic or Latino culture or origin indicator (Y/N)
+- Primary Language
+- Patient Needs Interpreter Flag
+- Interpreter Usage data
 
-</details>
+### Sex, Sexual Orientation, & Gender Identity (SSOGI)
 
-<details>
-  <summary><b>Transportation</b></summary>
+- Sex (assigned at birth)
+- Gender Identity
+- Pronouns
+- Sexual Orientation
+- Surgical Procedures
 
-  <ul>
-<li>  BMC THRIVE Screening: Trouble paying for transportation question </li> 
-<li>  BMC THRIVE Resources: Transportation to medical appointments resources requested by patient</li> 
-<li>  Documentation of MassHealth Provider Request for Transportation (PT1) </li> 
+### Housing
 
-</ul>
+- CDW for Research housing algorithm
+- BMC THRIVE Screening: Housing question
+- BMC THRIVE Resources: Housing/Shelter resources requested by patient
+- Epic patient & encounter homeless flags
+- ICD-10 codes (encounter & problem list diagnoses)
 
-</details>
+### Food
 
-<details>
-  <summary><b>Country of Origin</b></summary>
+- CDW for Research food insecurity & BMC food pantry use algorithm
+- BMC Preventative Food Pantry referrals, letters, & orders
+- BMC THRIVE Screening: Food insecurity risk (2-item Hunger Vital Sign) and food emergency questions
+- BMC THRIVE Resources: Food resources requested by patient
+- ICD-10 codes (encounter & problem list diagnoses)
 
-  <ul>
-<li>  Birthplace </li>
-<li> Country of Origin </li>
-  </ul>
-  
-</details>
+### Utilities
 
-<details>
-  <summary><b>Economic Stability and Social Connection</b></summary>
-  
-<ul>
-  
-<li>	Primary Health Insurance </li>
-<li>	Secondary Health Insurance </li>
-<li>	Marital status</li>
-<li>	Income </li>
-<li>	Highest Education Level</li>
-<li>	BMC THRIVE Screening: Interested in more education question </li>
-<li>	BMC THRIVE Resources: Education resources requested by patient</li>
-<li>	Insurance</li>
-<li>	Occupation</li>
-<li>	BMC THRIVE Screening: Currently unemployed and looking for a job question</li>
-<li>	BMC THRIVE Resources: Job search/training resources requested by patient</li>
-<li>	BMC THRIVE Screening: Trouble paying for medications</li>
-<li>	BMC THRIVE Resources: Paying for medicine resources requested by patient.</li>
-<li>	BMC THRIVE Screening: Trouble Paying for Medications</li>
+- BMC THRIVE Screening: Trouble paying for heat or electricity question
+- BMC THRIVE Resources: Utilities resources requested by patient
+- Utilities Shut-off Protection Letter Issuance
 
-</ul>
+### Transportation
 
-</details>
+- BMC THRIVE Screening: Trouble paying for transportation question
+- BMC THRIVE Resources: Transportation to medical appointments resources requested by patient
+- Documentation of MassHealth Provider Request for Transportation (PT1)
 
-<details>
-   <summary><b>Neighborhood and Community Context</b></summary>
+### Country of Origin
 
-<ul>
-<li>	Census tract level geocoding</li>
-<li>	CDC Social Vulnerability Index (SVI)</li>
+- Birthplace
+- Country of Origin
 
-</ul>
+### Economic Stability and Social Connection
 
-</details>
+- Primary Health Insurance
+- Secondary Health Insurance
+- Marital Status
+- Income
+- Highest Education Level
+- BMC THRIVE Screening: Interested in more education question
+- BMC THRIVE Resources: Education resources requested by patient
+- Insurance
+- Occupation
+- BMC THRIVE Screening: Currently unemployed and looking for a job question
+- BMC THRIVE Resources: Job search/training resources requested by patient
+- BMC THRIVE Screening: Trouble paying for medications
+- BMC THRIVE Resources: Paying for medicine resources requested by patient
 
+### Neighborhood and Community Context
+
+- Census tract level geocoding
+- CDC Social Vulnerability Index (SVI)
+
+---
 
 ## Race & Ethnicity {#rel}
+
 Data that capture the social construct of race and ethnicity.
 
-### **CDW for Research Race & Ethnicity Phenotype**
+### CDW for Research Race & Ethnicity Phenotype
 
-|||
-|:----------- | :----------- |
-|Decription|A combined race and ethnicity variable that collapses available race, ethnicity, and Hispanic or Latino culture or origin indicator fields into the following mutually exclusive categories:<br>&nbsp;&nbsp;&bull;Hispanic or Latino<br>  &nbsp;&nbsp;&bull;Non-Hispanic Asian <br>&nbsp;&nbsp;&bull;Non-Hispanic Black<br> &nbsp;&nbsp;&bull;Non-Hispanic white <br>  &nbsp;&nbsp;&bull;Another non-Hispanic race<br>  &nbsp;&nbsp;&bull;Unknown/Declined<br>|
-|Source|BMC CDW for Research|
-|CDW for Research Logic and/or Recommendations|The CDW for Research combines data from three Epic demographics tab data fields to create a patient phenotype:<br> &nbsp;&nbsp;&bull;Race<br> &nbsp;&nbsp;&bull;Person of Hispanic or Latino Culture or Origin Indicator <br>&nbsp;&nbsp;&bull;Primary Ethnicity|
-|Considerations & Limitations|The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br><br>The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br><br>Further disaggregation of the “non-Hispanic Asian” and “Another non-Hispanic race” is possible but may not be reportable due to small numbers.<br><br>As of June 2022, patients are not able to select more than one race nor ethnicity<br>The CDW for Research is looking into patient-reported Race via MyChart|
+| Field                     | Description                                                                                                                                                                                                                          |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Description**           | A combined race and ethnicity variable that collapses available race, ethnicity, and Hispanic or Latino culture or origin indicator fields into the following mutually exclusive categories:<br>- Hispanic or Latino<br>- Non-Hispanic Asian<br>- Non-Hispanic Black<br>- Non-Hispanic White<br>- Another Non-Hispanic Race<br>- Unknown/Declined |
+| **Source**                | BMC CDW for Research                                                                                                                                                                                                                 |
+| **Logic & Recommendations** | The CDW for Research combines data from three Epic demographics tab data fields to create a patient phenotype:<br>- **Race**<br>- **Person of Hispanic or Latino Culture or Origin Indicator**<br>- **Primary Ethnicity**                                 |
+| **Considerations**        | - The CDW for Research considers race to be a social construct and encourages researchers to think critically about using race and ethnicity as a proxy for structural racism or experiences with racism in their research.<br>- Further disaggregation of the “Non-Hispanic Asian” and “Another Non-Hispanic Race” is possible but may not be reportable due to small numbers.<br>- As of June 2022, patients are not able to select more than one race or ethnicity.<br>- The CDW for Research is exploring patient-reported race via MyChart. |
 
->### **CDW for Research Race & Ethnicity Phenotype Components**
->>#### **Race (raw Epic data field)**
->>
->>|||
->>|:----------- | :----------- |
->>|Description|The race of the patient as captured in the medical record. 20 Response Options. See Appendix for all options.|
->>|Source|Epic medical record, demographics tab (patient-level)|
->>|CDW for Research Logic and/or Recommendations|Disaggregated data can be used if research question examines race categories beyond the CDW for Research patient phenotype.|
->>|Considerations & Limitations|Data are entered into a patient’s record by clinical staff and may not be patient-reported.<br><br>Patients are not able to select more than one race nor ethnicity|
+#### CDW for Research Race & Ethnicity Phenotype Components
 
->>#### **Person of Hispanic of Latino Culture or Origin Indicator (raw Epic data field)**
->>
->>|||
->>|:----------- | :----------- |
->>|Description|Indicator for a person of Hispanic or Latino culture or origin, regardless of race, as captured in the medical record. There are 4 possible response options:<br>&nbsp;&nbsp;&bull;Yes<br>  &nbsp;&nbsp;&bull;No<br>&nbsp;&nbsp;&bull;Don't Know<br> &nbsp;&nbsp;&bull;Declined|
->>|Source|Epic medical record, demographics tab (patient-level)|
->>|CDW for Research Logic and/or Recommendations|Disaggregated data be used if research question exams Hispanic or Latino Culture or Origin beyond the CDW for Research patient phenotype; however, BMC included “Hispanic or Latino” as an option for race from 2018-XXXX; as such, disaggregation of race/Hispanic indicator/ethnicity fields is not advised|
->>|Considerations & Limitations|This data field is often colloquially referred to as “ethnicity” but does not contain detailed ethnicity data; it functions only as an indicator (Y/N) of Hispanic or Latino culture or origin.<br><br>Data are generally entered into a patient’s record by clinical staff and may not be patient-reported.<br><br>Response options for the current “Primary Ethnicity” field whereas included as a race category inas response options for the “Race” variable in Epic from 2020-2021; approx. XX% of patients have conflicting race and ethnicity data (e.g., Hispanic or Latino listed as race and Non-Hispanic or Latino listed as ethnicity)|
+##### Race (raw Epic data field)
 
+| Field             | Description                                                                                                                                  |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Description**   | The race of the patient as captured in the medical record. There are 20 response options. See Appendix for all options.                       |
+| **Source**        | Epic medical record, demographics tab (patient-level)                                                                                        |
+| **Logic & Recommendations** | Disaggregated data can be used if the research question examines race categories beyond the CDW for Research patient phenotype.      |
+| **Considerations** | - Data are entered into a patient’s record by clinical staff and may not be patient-reported.<br>- Patients are not able to select more than one race or ethnicity. |
 
->>#### **Primary Ethnicity (raw Epic data field)**
->>
->>|||
->>|:----------- | :----------- |
->>|Description|The primary ethnicity of the patient. Response Options. See Appendix for all options. |
->>|Source|Epic medical record, demographics tab (patient-level)|
->>|CDW for Research Logic and/or Recommendations| |
->>|Considerations & Limitations|Data are generally entered into a patient’s record by clinical staff and may not be patient-reported.<br><br>Patients are not able to select more than one ethnicity.|
+##### Person of Hispanic or Latino Culture or Origin Indicator (raw Epic data field)
+
+| Field             | Description                                                                                                                                  |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Description**   | Indicator for a person of Hispanic or Latino culture or origin, regardless of race, as captured in the medical record. Possible responses:<br>- Yes<br>- No<br>- Don't Know<br>- Declined |
+| **Source**        | Epic medical record, demographics tab (patient-level)                                                                                        |
+| **Logic & Recommendations** | Disaggregated data can be used if the research question examines Hispanic or Latino culture or origin beyond the CDW for Research patient phenotype. However, BMC included “Hispanic or Latino” as an option for race from 2018 to [Year], so disaggregation may not be advised. |
+| **Considerations** | - This data field is often referred to as “ethnicity” but does not contain detailed ethnicity data; it functions only as an indicator (Y/N) of Hispanic or Latino culture or origin.<br>- Data are generally entered by clinical staff and may not be patient-reported.<br>- Approximately XX% of patients have conflicting race and ethnicity data (e.g., Hispanic or Latino listed as race and Non-Hispanic or Latino listed as ethnicity). |
+
+##### Primary Ethnicity (raw Epic data field)
+
+| Field             | Description                                                                                                                                  |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Description**   | The primary ethnicity of the patient. Response options are available in the Appendix.                                                         |
+| **Source**        | Epic medical record, demographics tab (patient-level)                                                                                        |
+| **Logic & Recommendations** |                                                                                                                                      |
+| **Considerations** | - Data are generally entered by clinical staff and may not be patient-reported.<br>- Patients are not able to select more than one ethnicity. |
+
+---
 
 ## Language
+
 Data that capture the patient’s primary language and interactions with interpreter services.
 
->### **Primary Language**
->
->|||
->|:----------- | :----------- |
->|Decription|Patient primary language. XXX Response Options. See Appendix for all options.|
->|Source|Epic medical record, demographics tab (patient-level)|
->|CDW for Research Logic and/or Recommendations| |
->|Considerations & Limitations|Patient may have different preferences in writtern & spoken lanaguge <br><br>Patient preferences regarding a language may differ from a language they primarily speak at home<br><br>Consider stigmas that may affect a patient's stated preference (link?)|
+### Primary Language
 
->### **Needs Interpreter Flag**
->
->|||
->|:----------- | :----------- |
->|Decription|A flag used to indicate whether a patient requires an interpreter and, if so, services in what language.|
->|Source|Epic medical record (patient-level)|
->|CDW for Research Logic and/or Recommendations|CDW for Research can also provide if a patient has ever used interpreter services at an encounter at BMC if more relevant for the research question.|
->|Considerations & Limitations|Consider stigmas that may affect a patient's stated preference (link?)|
+| Field             | Description                                                                                                                                  |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Description**   | Patient's primary language. Multiple response options are available. See Appendix for all options.                                            |
+| **Source**        | Epic medical record, demographics tab (patient-level)                                                                                        |
+| **Logic & Recommendations** |                                                                                                                                      |
+| **Considerations** | - Patients may have different preferences in written and spoken language.<br>- Patient preferences may differ from the language they primarily speak at home.<br>- Consider stigmas that may affect a patient's stated preference. |
 
+### Needs Interpreter Flag
 
->### **Interpreter Usage**
->
->|||
->|:----------- | :----------- |
->|Decription|Documentation that an interpreter was used during a specific encounter.<br><br>Data are from an individual encounter. The data fields that can be extracted are:<br>&nbsp;&nbsp;&bull;Information for the encounter at which interpreter services were used, including date, clinic, appointment type, etc.<br>&nbsp;&nbsp;&bull;Language in which services were provided|
->|Source|Epic encounter (individual encounter-level)|
->|CDW for Research Logic and/or Recommendations|Encounter data (encounter-level) (smartform, flowsheet) <br><br>CDW for Research can also provide if a patient has ever used interpreter services at an encounter at BMC if more relevant for the research question.|
->|Considerations & Limitations|Consider stigmas that may affect a patient's stated preference (link?)|
+| Field             | Description                                                                                                                                  |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Description**   | A flag indicating whether a patient requires an interpreter and, if so, services in what language.                                            |
+| **Source**        | Epic medical record (patient-level)                                                                                                           |
+| **Logic & Recommendations** | The CDW for Research can provide information on whether a patient has ever used interpreter services at an encounter at BMC if relevant to the research question. |
+| **Considerations** | - Consider stigmas that may affect a patient's stated preference.                                                                            |
 
+### Interpreter Usage
+
+| Field             | Description                                                                                                                                  |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Description**   | Documentation that an interpreter was used during a specific encounter. Data fields include:<br>- Encounter information (date, clinic, appointment type, etc.)<br>- Language in which services were provided |
+| **Source**        | Epic encounter (individual encounter-level)                                                                                                   |
+| **Logic & Recommendations** | Encounter data can be extracted (e.g., smartforms, flowsheets). The CDW for Research can provide details if relevant to the research question. |
+| **Considerations** | - Consider stigmas that may affect a patient's stated preference.                                                                            |
+
+---
 
 ## Housing {#housing}
-Electronic health record markers that capture whether a patient experienced housing insecurity and/or homelessness. [link to something re housing/homeless/insecurity]
 
-### **CDW for Research Housing Algorithm**
+Electronic health record markers that capture whether a patient experienced housing insecurity and/or homelessness.
 
-|||
-|:----------- | :----------- |
-|Decription|CDW for Research-created algorithm that uses 8 indicators in the electronic health record to identify experiencing homelessness and/or housing insecurity.|
-|Source|BMC CDW for Research|
-|CDW for Research Logic and/or Recommendations|The algorithm leverages the following data :<br> &nbsp;&nbsp;**1.  BMC THRIVE Screening Housing Insecurity or Homelessness Positive Response**: A response of either “I have a place to live today, but I am worried about losing it in the future” or “I don't have a steady place to live (living with others, hotel, shelter, outside on the street, on a bench, in a car, abandoned building, bus or train station, in a park)” to the BMC THRIVE Screening question: “What is your living situation today?” during the study period. (see below for underlying Epic data detail)<br> &nbsp;&nbsp;**2.	Homelessness on Problem List**: A problem list dx related to housing instability or concerns. (see below for underlying Epic data detail)<br> &nbsp;&nbsp;**3.	Homelessness as Encounter Diagnosis**: Patient identified homeless during a visit or encounter.<br> &nbsp;&nbsp;**4.	Registration Indicator**: Patient was identified as homeless during patient registration.<br> &nbsp;&nbsp;**5.	Housing consult**: Any housing consult ordered during the study period.<br> &nbsp;&nbsp;**6.	Address History/Changes**: Patient's address history is queried to determine the number of address changes during study period (instability as defined by MassHealth as >3 address changes in 12 months).<br> &nbsp;&nbsp;**7.	Address is Shelter**: If the patient's address in medical record is the address of a known homeless shelter.<br>&nbsp;&nbsp;**8.	Historical Shelter Address**: If the patient was ever known to have an address at a homeless shelter.|
-|Considerations & Limitations|Casts widest net to determine if a patient has ever experienced housing insecurity or homelessness during the study period; update with sensitivity analysis when complete |
+### CDW for Research Housing Algorithm
 
->### **CDW for Research Housing Algorithm Components**
->>#### **BMC Thrive Screening: Housing Question**
->>
->>|||
->>|:----------- | :----------- |
->>|Description|BMC THRIVE Screening Housing Insecurity or Homelessness **Positive** Response to the question: *What is your living situation today?*<br> &nbsp;&nbsp;&bull;I have a place to live today, but I am worried about losing it in the future<br> &nbsp;&nbsp;&bull;I don't have a steady place to live (living with others, hotel, shelter, outside on the street, on a bench, in a car, abandoned building, bus or train station, in a park) |
->>|Source|BMC THRIVE Screening Results in Epic|
->>|CDW for Research Logic and/or Recommendations|The BMC THRIVE Screening tool does not have an aggregate score; we recommend using individual items as relevant to the research question.|
->>|Considerations & Limitations|May undercapture patients experiencing any form of housing instability.<br><br>The BMC THRIVE Screening is BMC health system-specific data; difficult to compare to other systems.|
+| Field             | Description                                                                                                                                  |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Description**   | CDW for Research-created algorithm that uses 8 indicators in the electronic health record to identify patients experiencing homelessness and/or housing insecurity. |
+| **Source**        | BMC CDW for Research                                                                                                                          |
+| **Logic & Recommendations** | The algorithm leverages the following data:<br>1. **BMC THRIVE Screening Housing Insecurity or Homelessness Positive Response**<br>2. **Homelessness on Problem List**<br>3. **Homelessness as Encounter Diagnosis**<br>4. **Registration Indicator**<br>5. **Housing Consult**<br>6. **Address History/Changes**<br>7. **Address is Shelter**<br>8. **Historical Shelter Address** |
+| **Considerations** | - Casts a wide net to determine if a patient has ever experienced housing insecurity or homelessness during the study period.<br>- Update with sensitivity analysis when complete. |
 
->>#### **ICD-10 Code for Homelessness**
->>
->>|||
->>|:----------- | :----------- |
->>|Description|Presence of **ICD-10 Z59.0** [Homelessness] added to a patient’s medical record via:<br> &nbsp;&nbsp;&bull;  Clinician entered via problem list <br> &nbsp;&nbsp;&bull;  Diagnosis associated with an encounter diagnoses<br> &nbsp;&nbsp;&bull;  I don't have a steady place to live (living with others, hotel, shelter, outside on the street, on a bench, in a car, abandoned building, bus or train station, in a park) |
->>|Source|Epic patient problem list & encounter dx; BMC Thrive|
->>|CDW for Research Logic and/or Recommendations| |
->>|Considerations & Limitations|May undercapture patients experiencing any form of housing instability.<br><br>Does not differentiate, due to clinical capture and coding limitations, between insecurity and homelessness.|
->>
+#### CDW for Research Housing Algorithm Components
 
->>#### **Housing Consult**
->>
->>|||
->>|:----------- | :----------- |
->>|Description|Presence of **ICD-10 Z59.0** [Homelessness] added to a patient’s medical record via:<br> &nbsp;&nbsp;&bull;  Clinician entered via problem list <br> &nbsp;&nbsp;&bull;  Diagnosis associated with an encounter diagnoses<br> &nbsp;&nbsp;&bull;  I don't have a steady place to live (living with others, hotel, shelter, outside on the street, on a bench, in a car, abandoned building, bus or train station, in a park) |
->>|Source|Epic patient problem list & encounter dx; BMC Thrive|
->>|CDW for Research Logic and/or Recommendations| |
->>|Considerations & Limitations|May undercapture patients experiencing any form of housing instability.<br><br>Does not differentiate, due to clinical capture and coding limitations, between insecurity and homelessness.|
+##### BMC THRIVE Screening: Housing Question
 
->>#### **Address History/Changes **
->>
->>|||
->>|:----------- | :----------- |
->>|Description|Presence of **ICD-10 Z59.0** [Homelessness] added to a patient’s medical record via:<br> &nbsp;&nbsp;&bull;  Clinician entered via problem list <br> &nbsp;&nbsp;&bull;  Diagnosis associated with an encounter diagnoses<br> &nbsp;&nbsp;&bull;  I don't have a steady place to live (living with others, hotel, shelter, outside on the street, on a bench, in a car, abandoned building, bus or train station, in a park) |
->>|Source|Epic patient problem list & encounter dx; BMC Thrive|
->>|CDW for Research Logic and/or Recommendations| |
->>|Considerations & Limitations|May undercapture patients experiencing any form of housing instability.<br><br>Does not differentiate, due to clinical capture and coding limitations, between insecurity and homelessness.|
->>
+- **Description:** Captures housing insecurity or homelessness positive responses to the question: *"What is your living situation today?"* Possible responses:
+  - "I have a place to live today, but I am worried about losing it in the future."
+  - "I don't have a steady place to live (living with others, hotel, shelter, outside on the street, etc.)."
+- **Source:** BMC THRIVE Screening Results in Epic
+- **Logic & Recommendations:** The BMC THRIVE Screening tool does not have an aggregate score; individual items are recommended for use as relevant to the research question.
+- **Considerations:** May undercapture patients experiencing any form of housing instability. The BMC THRIVE Screening is BMC health system-specific data, making comparisons with other systems difficult.
 
->>#### **Shelter Address**
->>
->>|||
->>|:----------- | :----------- |
->>|Description|Patient's address in medical record is the address of a known homeless shelter or they have a known history of residing in a shelter.|
->>|Source|CDW for Research list of area shelters; Epic registration address|
->>|CDW for Research Logic and/or Recommendations| |
->>|Considerations & Limitations|May undercapture patients experiencing any form of housing instability.<br><br>Does not differentiate, due to clinical capture and coding limitations, between insecurity and homelessness.|
->>
+##### ICD-10 Code for Homelessness
 
+- **Description:** Presence of **ICD-10 Z59.0** [Homelessness] added to a patient’s medical record via:
+  - Clinician-entered via problem list
+  - Diagnosis associated with an encounter
+- **Source:** Epic patient problem list & encounter diagnoses; BMC THRIVE
+- **Logic & Recommendations:** 
+- **Considerations:** May undercapture patients experiencing any form of housing instability. Does not differentiate between insecurity and homelessness due to clinical capture and coding limitations.
 
+##### Housing Consult
 
-Given the complexities of social circumstance, the CDW for Research leverages multiple aspects of the medical record in their aggregations. 
+- **Description:** Any housing consult ordered during the study period.
+- **Source:** Epic orders
+- **Logic & Recommendations:** 
+- **Considerations:** May not capture all patients in need due to variability in consult practices.
 
+##### Address History/Changes
+
+- **Description:** Patient's address history is queried to determine the number of address changes during the study period (instability defined by MassHealth as more than 3 address changes in 12 months).
+- **Source:** Epic registration data
+- **Logic & Recommendations:** Frequent address changes may indicate housing instability.
+- **Considerations:** May not capture informal housing changes not reported to the health system.
+
+##### Shelter Address
+
+- **Description:** If the patient's address in the medical record is the address of a known homeless shelter or they have a history of residing in a shelter.
+- **Source:** CDW for Research list of area shelters; Epic registration address
+- **Logic & Recommendations:** 
+- **Considerations:** May undercapture patients experiencing homelessness who do not use shelters.
+
+---
+
+Given the complexities of social circumstances, the CDW for Research leverages multiple aspects of the medical record in their aggregations.
+
+---
+
+*Note: Appendices and further sections should be added as necessary, following the same formatting guidelines.*
