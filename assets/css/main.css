@@ -218,7 +218,7 @@ html {
 }
 /* Hide submenus by default */
 .submenu {
-    display: none; /* Initially hide all submenus */
+    display: block; /* Initially hide all submenus */
     padding-left: 15px; /* Indent submenus */
 }
 
