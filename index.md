@@ -1,12 +1,12 @@
 ---
-title: Research Informatics Data Dictionary
+title: Clinical Data Dictionary
 layout: default
 ---
 
-Please visit the [CDW for Research's website](https://www.bmc.org/research/clinical-data-warehouse-cdw) for more information on our services. 
+Please visit the [CDW for Research's website](https://www.bmc.org/research/clinical-data-warehouse-cdw) for more information on accessing clinical data for Research. 
 Fill out a [data request form](https://bmc.tfaforms.net/f/cdw-data-request-form)
 
-This website is intended to inform the Research Community on the nuances of the data and things to consider when approaching the data. Our team of experts are specialized in leveraging data for Research, and account for all of the nuances of clinical data when approaching your data request. We will advise on the data required for your Research question, help you ascertain feasibility and ensure data quality and integrity for your analysis.
+This section is intended to inform the Research Community on the nuances of clinical data and things to consider when approaching the data. Our team of experts are specialized in leveraging data for Research, and account for all of the nuances of clinical data when approaching your data request. We will advise on the data required for your Research question, help you ascertain feasibility and ensure data quality and integrity for your analysis.
 
 
 ## Data Notes, Common Defintions, and Things to Know:
@@ -17,7 +17,9 @@ This website is intended to inform the Research Community on the nuances of the 
 | Epic Outpatient | Implemented May 2015|
 | Epic Outpatient | Implemented May 2015|
 | Epic Billing | Implemented May 2018|
-| Epic Clarity | Epic's relational database|
+| Epic Clarity | Epic relational database|
+| Epic Caboodle| Epic relational database representing a subset of Clarity|
+| BMC Research Data Warehouse|BMC's bespoke data warehouse built by the CDW for Research team|
 | Patient Problem List | ICD-10 codes, data at the patient level—noted date exists but may not be related to date of onset |
 | Past medical history | Patient-reported medical history for which there is no encounter. May or may not include an entry date, resolved year. Free text; no dx/ICD-10s associated with entry. Clinicians may see this in a chart under Problem List but the entry is greyed out and/or there is an asterisk that says past medical history. |
 | ICD-10 codes | Coding for diseases and health-related problems. Implemented October 1, 2015 |
