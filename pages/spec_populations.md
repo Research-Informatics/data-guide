@@ -3,15 +3,6 @@ title: "Specific Populations"
 layout: default
 ---
 
-```{r include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
-```{r include=FALSE}
-library(formatR)
-```
-
 ## Incarcerated Persons
 
 Incarcerated persons are xyz. Unless specified and approved by the IRB, these patients are removed from identifiable datasets.
