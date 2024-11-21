@@ -178,6 +178,12 @@ html {
     color: #ffffff; /* Optional: Set text to white for contrast */
 }
 
+.navbar-brand {
+    color: #F8F8F8 !important; /* Primary color */
+    font-weight: bold; /* Optional: Make the font bold */
+    text-decoration: none; /* Optional: Remove underline if present */
+}
+
 /* Custom css for news section */
 .blog-content {
     margin-bottom: 70px;
