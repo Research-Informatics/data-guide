@@ -173,7 +173,10 @@ html {
         display:block !important;
     }
 }
-
+.navbar {
+    background-color: #00867B; /* Primary color */
+    color: #ffffff; /* Optional: Set text to white for contrast */
+}
 
 /* Custom css for news section */
 .blog-content {
