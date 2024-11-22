@@ -7,7 +7,7 @@ Unlocking the potential of clinical data for research can transform how we under
 
 Clinical data is powerful, but navigating its nuances—from data collection and interpretation to addressing biases and ensuring patient privacy—can be daunting. This site provides practical tools, guidance, and insights to empower you, helping you ask the right questions, design meaningful studies, and make data-driven decisions.
 
-## What You’ll Learn
+### What You’ll Learn
 - The basics of clinical data structures, sources, and terminology.
 - How to formulate research questions that align with the strengths and limitations of clinical data.
 - Practical steps for requesting, cleaning, analyzing, and visualizing clinical data.
