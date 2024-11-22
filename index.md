@@ -1,5 +1,5 @@
 ---
-title: BMC Research Data & Informatics Guide' 
+title: BMC Research Data & Informatics Guide
 layout: default
 ---
 ## Using clinical data for Research
@@ -9,8 +9,9 @@ Clinical data is powerful, but navigating its nuances—from data collection and
 
 ### What You’ll Learn
 - The basics of clinical data structures, sources, and terminology.
-- How to formulate research questions that align with the strengths and limitations of clinical data.
-- Practical steps for requesting, cleaning, analyzing, and visualizing clinical data.
+- The data available to you and how to choose the appropriate data for your study.
+- How to maximize the CDW for Research's capabilities in your research. 
+- Practical information for requesting and receiving your data set.
 - Key considerations for data governance, compliance, and ethical research practices.
 
 Whether you’re exploring patient outcomes, population health trends, or predictive models, our goal is to demystify the process and provide you with the knowledge to confidently use clinical data in your research. 
