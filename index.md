@@ -1,5 +1,5 @@
 ---
-title: Research Informatics
+title: BMC Research Data & Informatics Guide' 
 layout: default
 ---
 ## Using clinical data for Research
