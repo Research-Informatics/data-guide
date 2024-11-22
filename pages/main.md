@@ -2,7 +2,7 @@
 title: Research Informatics
 layout: default
 ---
-#Using clinical data for Research
+# Using clinical data for Research
 Unlocking the potential of clinical data for research can transform how we understand and improve patient care. Whether you're a seasoned researcher or new to the world of clinical data, this resource is designed to guide you through the complexities of using clinical data effectively, ethically, and responsibly in your studies.
 
 Clinical data is powerful, but navigating its nuances—from data collection and interpretation to addressing biases and ensuring patient privacy—can be daunting. This site provides practical tools, guidance, and insights to empower you, helping you ask the right questions, design meaningful studies, and make data-driven decisions.
