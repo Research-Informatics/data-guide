@@ -12,6 +12,11 @@ h1 {
     color: #00867B; /* Primary color from your theme */
 }
 
+h2 {
+ font-size: 1.5em; /* 24px */
+    line-height: 1.5; /* Adjust for readability */
+    color: #00556F; /* Dark blue color from your theme */
+}
 img {
     max-width: 90%;
 }
