@@ -1,5 +1,5 @@
 ---
-title: Research Data Warehouse
+title: Data Available in the Research Data Warehouse
 layout: default
 ---
 
