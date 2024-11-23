@@ -1,13 +1,11 @@
 ---
-title: Demographics
+title: Patient Demographics
 layout: default
 ---
-
-# Patient demographics
 Demographics represent foundational data in clinical research, capturing key attributes such as age, sex, race, ethnicity, language, and other socio-environmental factors. These variables provide critical context for understanding patient populations. Demographics define the baseline composition of study populations, aiding in subgroup analyses and highlighting variations across age, race, gender, and other attributes.
 Demographic data tend to align with requirements from regulatory bodies (e.g., FDA, NIH). By carefully leveraging and addressing the complexities of demographic data, researchers can enhance the validity, equity, and impact of their studies.
 
-## Considerations for Use in Research:
+### Considerations for Use in Research:
 
 - Self-reported demographics may vary in accuracy, while institutional biases in documentation (e.g., underreporting of race or ethnicity) can lead to gaps in data. Missing data for key variables like race or language can hinder analyses, requiring imputation or exclusion strategies.
 - Granularity and Standardization: Race, ethnicity, and country of origin often require harmonization to align with federal or research-specific standards.
@@ -17,7 +15,7 @@ Demographic data tend to align with requirements from regulatory bodies (e.g., F
 
 **Further information regarding SOGI data, interpreter usage, and country of origin are available in the HRSN and Special Populations sections.**
 
-# Data Dictionary: Demographics
+## Data Output: Demographics
 
 | Variable                   | Description                                                                                       | Source                                    | Data Type   | Key Information                                                                                                   |
 |----------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------|
