@@ -36,7 +36,7 @@ Our team of experts are specialized in leveraging data for Research, and account
 |Flag|Term used for a mechanism leveraging various data available in Epic via phenotyping that alerts of the presence (or absence) of a particular condition, situation, need, problem in the data|Derived, Binary|CDW-R SUD alogirthm|
 |Indicator|Y/N field in Epic|Binary|example|
 
-## Data Available
+## Data Available and Details
 
 | **Data Category** | **Data Field**  | **Details** |**Data Type**|
 | :----------- | :----------- |:----------- |:----------- |
@@ -44,4 +44,4 @@ Our team of experts are specialized in leveraging data for Research, and account
 | Patient Problem List | ICD-10 codes, data at the patient level—noted date exists but may not be related to date of onset |
 | Past medical history | Patient-reported medical history for which there is no encounter. May or may not include an entry date, resolved year. Free text; no dx/ICD-10s associated with entry. Clinicians may see this in a chart under Problem List but the entry is greyed out and/or there is an asterisk that says past medical history. |
 | BMC THRIVE SDOH Screening Program (Screening Tool & Resources Requested by Patient) |The BMC THRIVE Screening Tool screens patients for a maximum of 8 domains of health-related social needs, captures responses as standard ICD-10 visit diagnosis codes in the EHR, and offers patients printed resource referral guides to help address unmet social needs.  THRIVE was modeled after the WE CARE program in Pediatrics, an SDOH screening and referral program implemented at BMC and other urban pediatric clinics.  See appendix for paper screening tool. The BMC THRIVE Screening does not produce an aggregate score. It is important to note that there have been multiple versions of the THRIVE screening tool. The tool differs by clinic locations, and roll-out timeframes differ by clinic. In addition, clinics utilize a different number of questions, different questions themselves, and different SDOH domains. Patients may formally decline screening or choose to not answer any number of questions. These nuances create ramifications for screening numerators, denominators, and rates.
-
+| CPT codes| xx | xx | 
