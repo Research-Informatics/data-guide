@@ -1,5 +1,5 @@
 ---
-title: Health Related Social Needs and Social Determinants of Health 
+title: Health Related Social Needs
 layout: default
 ---
 This resource describes social determinants of health (SDOH), health-related social needs, and other data fields relevant to health equity research that are available from the CDW for Research—including data definitions, descriptions, sources, and limitations.
