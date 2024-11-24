@@ -9,6 +9,10 @@ When using encounters and utilization data, it is essential to align your data r
 
 The CDW-R provides standard encounter and utilization fields, as outlined below. Be explicit if additional data points are required to address your study question effectively. **Part II data are discussed further in the special considerations section.**
 
+## CDW-R Curated Variables & Definitions
+### Primary Care Encounters
+### Part II Encounters
+
 ## Outpatient Encounters
 
 ## Emergency Encounters
