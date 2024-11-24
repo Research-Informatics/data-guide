@@ -25,3 +25,10 @@ Available for inpatient admissions.
 ### Ever above or below
 
 ### Most recent
+
+## Data Output: Inpatient Labs
+If requesting labs for inpatient admissions or ED encounters, note that an encounter id will be available in addition to patient id; this must be used to ensure the labs are associated with the appropriate encounters and its data. 
+
+## Data Output: Outpatient Labs
+
+## All Labs during study period
