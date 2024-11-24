@@ -1,0 +1,5 @@
+---
+title: Vitals
+layout: default
+---
+
