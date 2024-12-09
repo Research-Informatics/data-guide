@@ -26,12 +26,18 @@ The CDW-R has access to data from the following CHCs:
 
 The BMC/BUMC IRB also has [guidance](https://www.bumc.bu.edu/irb/submission-requirements/special-submission-requirements/research-with-community-health-centers-chcs/ "IRB CHC Information") for submitting INSPIR applications for studies that require data from CHCs.
 
-### Accessing
+#### Accessing
 Permission to access data for research is required from each Boston HealthNet CHC; this policy includes getting permission from each CHC to access simple aggregate counts. Boston HealthNet has a centralized Project Request [Form](https://www.bu.edu/ctsi/community-engagement/boston-healthnet-bhn/ "BHN Form") to request access. 
 
 ### Implications & Considerations
 
 ## Wellsense Claims
+Functionally, the BMC CDW-R has access to WellSense Health Plan claims data and can provide to research studies that have received the appropriate approvals. CDW-R can link clinical and claims data for study teams. 
+
+WellSense Plan data are owned by the Massachusetts Executive Office of Health and Human Services (EOHHS). Therefore, project-specific MassHealth approval is required per BMC Health System’s contract with MassHealth for research or publication of any analysis that uses WellSense data (either research or quality improvement).  
+
+Following BUMC IRB approval, study teams are required to work with BMCHS legal to apply to MassHealth for data. Please contact the [CDW-R team](mailto:cdw@bmc.org) if you are interested in further discussing claims data access for research purposes, and we can provide additional information.
+  
 
 ### Accessing
 
