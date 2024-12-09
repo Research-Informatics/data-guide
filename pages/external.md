@@ -24,7 +24,6 @@ The CDW-R has access to data from the following CHCs:
 <br>**We do not have access to East Boston.**
 <br>The BMC/BUMC IRB also has [guidance](https://www.bumc.bu.edu/irb/submission-requirements/special-submission-requirements/research-with-community-health-centers-chcs/ "IRB CHC Information") for submitting INSPIR applications for studies that require data from CHCs.
 
-#### Accessing
 Permission to access data for research is required from each Boston HealthNet CHC; this policy includes getting permission from each CHC to access simple aggregate counts. Boston HealthNet has a centralized Project Request [Form](https://www.bu.edu/ctsi/community-engagement/boston-healthnet-bhn/ "BHN Form") to request access. 
 
 ### Implications & Considerations
