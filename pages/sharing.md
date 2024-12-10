@@ -50,6 +50,6 @@ At BMC, any transfer of data derived from a human subject is documented, even if
 ### How to Share Data
 For researchers looking to share data externally:
 1. **Contact the DUA team**: [Email us](mailto:DUA.MTARequest@bmc.org) for guidance.
-2. **Submit an [Intake Questionnaire](https://hub.bmc.org/system/files/docs/2024-12/BMC_MTA-DUA_Intake_Questionnaire_Dec.%202024.pdf)**: Initiate the agreement process. Many transfers can be documented quickly and easily.
+2. **Submit an [Intake Questionnaire](https://hub.bmc.org/system/files/docs/2024-12/BMC_MTA-DUA_Intake_Questionnaire_Dec.%202024.pdf "DUA Intake")**: Initiate the agreement process. Many transfers can be documented quickly and easily.
 
 By following these guidelines, researchers can ensure compliance with legal and institutional requirements while supporting the responsible and ethical use of clinical data in research.
