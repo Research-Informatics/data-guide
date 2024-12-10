@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    <div class="container">
+        {% include header.html %}
+
+        <!-- Static Intro Section -->
+        <section class="intro">
+            <h1>{{ page.title }}</h1>
+            <div class="content">
+                {{ content }}
+            </div>
+        </section>
+
+        <!-- Dynamic Card Section -->
+        <section class="cards">
+            <h2>Explore Topics</h2>
+            <div class="card-container">
+                {% for page in site.pages %}
+                    {% if page.summary and page.url != "/" %}
+                        <div class="card">
+                            <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                            <p>{{ page.summary }}</p>
+                            <a href="{{ page.url }}" class="read-more">Read more</a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+
+        {% include footer.html %}
+    </div>
+</body>
+
+</html>
