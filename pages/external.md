@@ -72,6 +72,8 @@ Researchers should combine claims data with clinical data thoughtfully and valid
 
 
 ## Other External Data Sources
+The CDW-R actively considers integrating external and public data sets to be leveraged for Research. Contact us if you would like to recommend an external data set for our consideration. 
 
-### BEST
+<!-- ### BEST
+The CDW-R partnered with ED researchers to inco -->
 
