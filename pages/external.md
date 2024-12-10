@@ -33,7 +33,7 @@ Community health center (CHC) data offers unique insights into underserved and v
 - **Focuses on Primary Care and Preventive Services**: Offers insights into healthcare delivery at the community level, particularly for chronic disease management and early intervention.
 - **Supports Equity-Driven Research**: Helps identify and address gaps in care, informing policies to improve health equity.
 
-## Limitations & Considerations
+### Limitations & Considerations of CHC data
 Community health center (CHC) data provides valuable insights into underserved and vulnerable populations, but there are key limitations to consider:
 
 - **Population Scope**: CHC data focuses on specific communities and may not represent all populations.
