@@ -1,6 +1,8 @@
 ---
 title: External Data
 layout: default
+summary: "Explore how to integrate external data sources, such as claims and CHCs, into your research to gain deeper insights and improve study outcomes."
+
 ---
 
 Depending on your research aims, data from community health centers (CHCs) with a hospital’s data can significantly enhance clinical research, population health initiatives, and care coordination. Community health centers often serve as primary care providers for underserved and high-risk populations, capturing critical outpatient data that may complement the inpatient and emergency department (ED) data from the hospital. Together, these datasets provide a more comprehensive picture of patients' care journeys and health outcomes.
