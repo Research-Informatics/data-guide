@@ -1,6 +1,6 @@
 ---
 title: BMC Research Data & Informatics Guide
-layout: home
+layout: default
 ---
 ## Using clinical data for Research
 Unlocking the potential of clinical data for research can transform how we understand and improve patient care. Whether you're a seasoned researcher or new to the world of clinical data, this resource is designed to guide you through the complexities of using clinical data effectively, ethically, and responsibly in your studies.
