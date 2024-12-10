@@ -19,7 +19,7 @@ The CDW-R has access to data from the following CHCs:
 * Mattapan Community
 * South Boston
 * South End
-* Upham’s Corner. 
+* Upham’s Corner
 
 <br>**We do not have access to East Boston.**
 <br>The BMC/BUMC IRB also has [guidance](https://www.bumc.bu.edu/irb/submission-requirements/special-submission-requirements/research-with-community-health-centers-chcs/ "IRB CHC Information") for submitting INSPIR applications for studies that require data from CHCs.
