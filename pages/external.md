@@ -26,7 +26,24 @@ The CDW-R has access to data from the following CHCs:
 
 Permission to access data for research is required from each Boston HealthNet CHC; this policy includes getting permission from each CHC to access simple aggregate counts. Boston HealthNet has a centralized Project Request [Form](https://www.bu.edu/ctsi/community-engagement/boston-healthnet-bhn/ "BHN Form") to request access. 
 
-### Implications & Considerations
+### Using CHC Data for Research
+Community health center (CHC) data offers unique insights into underserved and vulnerable populations, making it a valuable resource for research. Researchers may consider using CHC data because it:
+
+- **Highlights Health Disparities**: Provides critical information on populations that are often underrepresented in larger healthcare systems.
+- **Focuses on Primary Care and Preventive Services**: Offers insights into healthcare delivery at the community level, particularly for chronic disease management and early intervention.
+- **Supports Equity-Driven Research**: Helps identify and address gaps in care, informing policies to improve health equity.
+
+## Limitations & Considerations
+Community health center (CHC) data provides valuable insights into underserved and vulnerable populations, but there are key limitations to consider:
+
+- **Population Scope**: CHC data focuses on specific communities and may not represent all populations.
+- **Data Completeness**: Limited resources may result in incomplete or inconsistent documentation compared to larger healthcare systems.
+- **Variability in Standards**: Data collection practices may vary widely across different health centers, affecting comparability. The CDW-R has mechanism for harmonizing CHC data with BMC data but cannot account for variable data collection practices.
+- **Focus on Primary Care**: CHC data often emphasizes primary care and preventive services, potentially lacking details on specialized or tertiary care.
+
+Researchers should consider these limitations when analyzing CHC data and may need to combine it with other sources for a more comprehensive picture.
+
+
 
 ## Wellsense Claims
 Functionally, the BMC CDW-R has access to WellSense Health Plan claims data and can provide to research studies that have received the appropriate approvals. CDW-R can link clinical and claims data for study teams. 
@@ -35,10 +52,24 @@ WellSense Plan data are owned by the Massachusetts Executive Office of Health an
 
 Following BUMC IRB approval, study teams are required to work with BMCHS legal to apply to MassHealth for data. Please contact the [CDW-R team](mailto:cdw@bmc.org) if you are interested in further discussing claims data access for research purposes, and we can provide additional information.
   
+### Using Claims Data for Research
 
-### Accessing
+Claims data offers a valuable supplement to clinical research by providing a comprehensive view of patient care across multiple settings and timeframes. Claims data captures detailed information on healthcare utilization, costs, and services rendered, regardless of location. This can help researchers:
 
-### Implications & Considerations
+- **Identify Trends**: Analyze patterns in treatment, medication use, and healthcare access.
+- **Ensure Completeness**: Fill gaps in clinical data, such as procedures or diagnoses from external providers.
+- **Study Longitudinal Outcomes**: Track patient journeys over time, spanning multiple care settings.
+
+### Limitations and Considerations of Claims Data
+
+While claims data can augment clinical research, there are important limitations to consider:
+
+- **Limited Clinical Detail**: Claims data focuses on billing and reimbursement, often lacking granular clinical insights (e.g., lab results, vital signs).
+- **Potential Coding Errors**: Diagnoses and procedures may be miscoded or incomplete, affecting accuracy.
+- **Bias in Utilization**: Data reflects services billed, which may not fully represent all care provided, especially for uninsured populations.
+
+Researchers should combine claims data with clinical data thoughtfully and validate findings to mitigate these challenges.
+
 
 ## Other External Data Sources
 
