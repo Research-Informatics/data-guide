@@ -17,6 +17,7 @@ In the inpatient setting, lab data often captures acute changes in patient healt
 - Are you using the labs to define the cohort, or do you need labs for the cohort of interest?
 - Labs often have a variety of names; the CDW-R will work with the Research team to ensure they are capturing all appropriate labs.
   
+<!--
 ## CDW-R Curated Data Fields & Definitions
 
 ### Initial, Min, Max
@@ -32,3 +33,4 @@ If requesting labs for inpatient admissions or ED encounters, note that an encou
 ## Data Output: Outpatient Labs
 
 ## All Labs during study period
+-->
