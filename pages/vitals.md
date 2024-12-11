@@ -7,7 +7,7 @@ Vital signs data provides fundamental insights into patient health and physiolog
 
 In the inpatient setting, vital signs are often recorded at high frequency, especially in critical care scenarios, offering granular insights into acute health events. In the outpatient setting, vital signs are typically captured during routine visits, providing a snapshot of the patient's condition over time and aiding in chronic disease management.
 
-
+<!--
 ## CDW-R Curated Data Fields & Definitions
 
 ### Initial, Min, Max
@@ -23,3 +23,4 @@ If requesting labs for inpatient admissions or ED encounters, note that an encou
 ## Data Output: Outpatient Vitals
 
 ## All vitals during study period
+-->
