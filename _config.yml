@@ -2,8 +2,8 @@
 title: BMC Research Informatics Data Dictionary
 email: cdw@bmc.org
 description: Start here.
-baseurl: "/data-dictionary"
-repository: "https://research-informatics.github.io/data-dictionary/"
+baseurl: "/data-guide"
+repository: "https://research-informatics.github.io/data-guide/"
 permalinks: pretty
 defaults:
   -
