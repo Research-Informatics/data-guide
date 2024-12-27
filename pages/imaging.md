@@ -13,27 +13,16 @@ Additionally, the CDW-R employs natural language processing (NLP) techniques to 
 
 
 ### Considerations for Research
+- Relevance to Research Questions: Align imaging report queries with the specific findings or modalities relevant to your study. For example, look for tumor measurements in oncology studies or structural brain changes in neurology. Use imaging reports to validate diagnoses or track changes over time in the context of your research objectives.
 
-#### Relevance to Research Questions
-Align imaging report queries with the specific findings or modalities relevant to your study. For example, look for tumor measurements in oncology studies or structural brain changes in neurology. Use imaging reports to validate diagnoses or track changes over time in the context of your research objectives.
+- Timing and Context of Imaging Studies: Imaging studies often occur within a specific clinical context, such as acute episodes or routine follow-ups. Ensure the timing of imaging aligns with your study’s objectives—for example, pre- and post-treatment imaging for efficacy studies or baseline scans for cohort definitions. Reflect on whether findings are from inpatient or outpatient settings and how that may affect interpretation.
 
-#### Timing and Context of Imaging Studies
-Imaging studies often occur within a specific clinical context, such as acute episodes or routine follow-ups. Ensure the timing of imaging aligns with your study’s objectives—for example, pre- and post-treatment imaging for efficacy studies or baseline scans for cohort definitions. Reflect on whether findings are from inpatient or outpatient settings and how that may affect interpretation.
+- Imaging Report Content and Clarity: Imaging reports summarize key findings and often include impressions from radiologists. Familiarize yourself with common radiology terminology to accurately interpret these findings. Engage with the CDW-R to ensure reports are parsed correctly, capturing the key details needed for your research.
 
-#### Imaging Report Content and Clarity
-Imaging reports summarize key findings and often include impressions from radiologists. Familiarize yourself with common radiology terminology to accurately interpret these findings. Engage with the CDW-R to ensure reports are parsed correctly, capturing the key details needed for your research.
-
-#### Collaboration with Radiology and CDW-R
-Work closely with radiologists and the CDW-R team to refine imaging data requests. Radiologists can provide insights into report nuances, while the CDW-R ensures efficient querying and retrieval of data. For example, if DICOM files are required, coordinate to obtain relevant image sets efficiently.
+- CDW-R Infrastructure: Utilize tools for extracting structured information from imaging reports, such as natural language processing (NLP) frameworks. Leverage CDW-R’s capabilities to streamline imaging data retrieval and connect findings directly to clinical questions. Work closely with radiologists and the CDW-R team to refine imaging data requests. Radiologists can provide insights into report nuances, while the CDW-R ensures efficient querying and retrieval of data. For example, if DICOM files are required, coordinate to obtain relevant image sets efficiently.
 
 <!-- #### Ethical and Resource Considerations
 Minimize unnecessary imaging studies, both to reduce patient burden and to adhere to ethical standards. Ensure imaging requests are justified and integral to your research goals. Avoid overburdening radiology teams by providing clear and focused data requests. -->
-#### Integration with Other Data
-Recognize that imaging data is one component of a broader clinical picture. Integrate imaging findings with other data sources, such as lab results or patient histories, to enrich your analyses and draw more comprehensive conclusions.
-
-#### Tools for Imaging Reports and Analysis
-Utilize tools for extracting structured information from imaging reports, such as natural language processing (NLP) frameworks. Leverage CDW-R’s capabilities to streamline imaging data retrieval and connect findings directly to clinical questions.
-
 ### Future Directions
 - Incorporating NLP tools to automate and enhance the analysis of imaging reports.
 - Developing frameworks to integrate imaging findings seamlessly with other clinical and research datasets.
