@@ -34,9 +34,10 @@ Orders are a cornerstone of clinical workflows, representing instructions for di
 
 - **Order Variability**: Examine variations in ordering patterns across providers, departments, or patient populations. This can reveal gaps in care or opportunities for quality improvement.
 
-- **Ethical and Privacy Considerations**: Ensure compliance with HIPAA and institutional guidelines when using order data for research. De-identify data and avoid sharing identifiable information.
 
 ### Future Directions
 - Standardizing order terminology and attributes to facilitate cross-institutional research.
 - Leveraging natural language processing (NLP) to extract additional context from order instructions.
 - Using predictive analytics to identify patterns in orders that may lead to improved patient outcomes or reduced costs.
+
+<!-- order questions and responses -->
