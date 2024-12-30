@@ -4,7 +4,7 @@ layout: default
 ---
 
 Please visit the [CDW for Research's website](https://www.bmc.org/research/clinical-data-warehouse-cdw) for more information on accessing clinical data for Research. 
-Fill out a [data request form](https://bmc.tfaforms.net/f/cdw-data-request-form)
+Fill out a [data request form](https://bmc.tfaforms.net/f/cdw-data-request-form).
 
 This section is intended to inform the Research Community on the data available in the Research Data Warehouse via the CDW-R team as well as the nuances of clinical data and things to consider when approaching the data. 
 Our team of experts are specialized in leveraging data for Research, and account for all of the nuances of clinical data when approaching your data request. We will advise on the data required for your Research question and help you ascertain feasibility. We use our discretion when advising on data to ensure optimal data quality and integrity. 
