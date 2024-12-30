@@ -4,20 +4,22 @@
     <ul class="nav nav-list">
         <!-- Main Section: Introduction -->
         <li>
-            <a href="{{ site.baseurl }}">Introduction</a>
+            <a href="{{ site.baseurl }}/pages/main">Introduction</a>
         </li>
+
 
 <nav>
   <ul>
     {% for page in site.pages %}
       {% if page.menu_item %}
         <li>
-          <a href="{{ site.baseurl }}/pages/main">Introduction</a>
+          <a href="{{ page.url }}" title="{{ page.summary }}">{{ page.title }}</a>
         </li>
       {% endif %}
     {% endfor %}
   </ul>
 </nav>
+        
         
  <!-- Main Section: Data Literacy Basics -->
 <li>
