@@ -1,9 +1,7 @@
 ---
-title: Data Basics
+title: Data Literacy Basics
 layout: default
 ---
-## What is Data Literacy?
-
 Data literacy is the ability to read, understand, create, and communicate data as information. For researchers, it involves:
 
 - **Understanding the data lifecycle**: Knowing how data is captured and moves through its lifecycle.
@@ -36,8 +34,6 @@ Without proper data literacy:
 - Researchers may overlook valuable patterns or trends.
 
 ---
-
-
 ## Basic Data Terminology
 
 Before diving into clinical-specific terms like encounters or demographics, it’s crucial to understand foundational data concepts:
@@ -66,6 +62,7 @@ Below are foundational terms to be familiar with.
 
 
 Below are data elements and terms to be familiar with when working with the CDW-R and clinical data. 
+
 | **Data Terms** | **Details**  | **Data type** |**Example**|
 | :----------- | :----------- |:----------- |:----------- |
 | Clinical Phenotype | An observable clinical condition or characteristic that can be identified by querying the electronic health record for a defined set of data elements  |Derived| CDW-R housing algorithm|
