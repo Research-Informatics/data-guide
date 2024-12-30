@@ -85,43 +85,27 @@ Data quality refers to the accuracy, completeness, consistency, and reliability 
 
 The CDW-R is primarily responsible for ensuring data quality across its curated datasets. The team works closely with researchers and study teams as needed to address data quality concerns and tailor datasets for their specific research objectives. By partnering with the CDW-R, teams can trust that their data is reliable, accurate, and well-suited for meaningful analysis.
 
-
-### 5.5 Data Relationships
-- **Primary Key**: Unique identifier for a record (e.g., patient ID).
-- **Foreign Key**: A link between tables (e.g., visit ID in a patient record).
-
-## Clinical Data Structures
-
-Clinical data is stored and organized in various structures, each designed to suit specific needs:
-
-### Flat Files
-- **Definition**: Simple, two-dimensional tables (e.g., CSV, Excel).
-- **Use Case**: Small datasets, quick analyses.
-- **Limitations**: Difficult to manage relationships between data points.
-- **Note that the CDW-R rarely delivers data in flat files, and it is the expectation that the study team has the ability to transform their data as necessary.**
-
-### Relational Databases
-- **Definition**: Data stored in structured tables with defined relationships (e.g., Epic Clarity).
-- **Use Case**: Managing complex datasets with relationships (e.g., patients, visits, labs).
-- **Key Features**:
-  - Tables are linked using primary and foreign keys.
-  - SQL is used to query data.
-
-### Data Warehouses
-- **Definition**: Central repositories for integrating data from multiple sources (e.g., Epic Caboodle).
-- **Use Case**: Long-term storage, large-scale analytics, and multi-departmental research.
-- - **Note: the CDW-R has built a bespoke Research Data Warehouse, leveraging Epic's Clarity and Caboodle, as well as integrating external and legacy data sources. 
-
 ---
 
-## Data Sources
+## Data Storage and Sources
 
-Clinical research data comes from various sources, each with unique attributes:
+### Data Storage Types
 
-- **Electronic Health Records (EHRs)**: Comprehensive records of patient interactions with healthcare systems (e.g., Epic Hyperspace, Chronicles).
-- **Data Warehouses**: Aggregated data from operational systems, designed for analytics (e.g., Caboodle).
-- **Public Data Sets**: National databases, registries, and de-identified datasets (e.g., Claims, CDC data).
-- **External Sources**: Patient-reported outcomes, wearables, and social determinants of health.
+| **Data Type**          | **Definition**                                                                                   | **Use Case**                                  | **Key Features/Notes**                                                                                                                   |
+|-------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Flat Files              | Simple, two-dimensional tables (e.g., CSV, Excel).                                             | Small datasets, quick analyses.             | Difficult to manage relationships between data points. The CDW-R rarely delivers data in flat files; study teams are expected to transform data as necessary. |
+| Relational Databases    | Data stored in structured tables with defined relationships (e.g., Epic Clarity).              | Managing complex datasets with relationships (e.g., patients, visits, labs). | Tables are linked using primary and foreign keys. SQL is used to query data.                                                           |
+| Data Warehouses         | Central repositories for integrating data from multiple sources (e.g., Epic Caboodle).         | Long-term storage, large-scale analytics, and multi-departmental research.   | The CDW-R has built a bespoke Research Data Warehouse leveraging Epic’s Clarity and Caboodle, as well as integrating external and legacy data sources. |
+
+### Data Sources
+
+| **Source**                  | **Definition**                                                                                     | **Examples**                                                                                  |
+|-----------------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Electronic Health Records (EHRs) | Comprehensive records of patient interactions with healthcare systems.                          | Epic Hyperspace, Chronicles                                                                   |
+| Data Warehouses             | Aggregated data from operational systems, designed for analytics.                                  | Caboodle                                                                                     |
+| Public Data Sets            | National databases, registries, and de-identified datasets.                                        | Claims data, CDC datasets                                                                    |
+| External Sources            | Data collected outside traditional clinical systems, often including patient-reported or device-generated information. | Patient-reported outcomes, wearable devices, social determinants of health                   |
+
 
 ---
 
