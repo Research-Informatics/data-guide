@@ -2,9 +2,7 @@
 title: Data Basics
 layout: default
 ---
-# Markdown Basics: Introduction to Data Literacy
-
-## 1. What is Data Literacy?
+## What is Data Literacy?
 
 Data literacy is the ability to read, understand, create, and communicate data as information. For researchers, it involves:
 
@@ -20,9 +18,10 @@ In the context of clinical research, data literacy empowers researchers to:
 - Ensure data-driven insights are accurate, reproducible, and meaningful.
 
 The Research Informatics team, including the CDW-R, is dedicated to ensuring high-quality data and meticulous curation. Our goal is to empower researchers with the knowledge and confidence to work effectively with data, from requesting it for their studies to receiving it for analysis. This guide focuses on the pre-analysis stages of the data lifecycle.
+
 ---
 
-## 2. Why is Data Literacy Important in Clinical Research?
+### Why is Data Literacy Important in Clinical Research?
 
 Clinical research relies on accurate and meaningful data to:
 
@@ -79,27 +78,26 @@ Before diving into clinical-specific terms like encounters or demographics, itâ€
 
 ## Data types
 
-| **Data Type**      | **Definition**                                                                                                                    | **Examples**                                |
-|:---------------------|:----------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
-| Qualitative Data | Non-numeric data that describes characteristics, attributes, or qualities, often capturing subjective information.| Patient-reported symptoms, clinical notes, free-text comments |
-| Quantitative Data| Numeric data that can be measured and analyzed mathematically, often used for statistical or computational purposes.| Lab results, BMI, heart rate, medication dosages |
+## Data Type Definitions
 
-| Derived         | Data created through algorithms or processing of raw data.                                                                       | Clinical Phenotype, Flags, NLP outputs     |
-| Binary          | 1: Yes 0: No data points.                                                                                                | Indicators, Flags                          |
-| Structured      | Highly organized data stored in predefined fields.                                                                               | Lab Results, Orders                        |
-| Unstructured    | Free-form text or data without a predefined schema.                                                                              | Free Text, Imaging data raw files          |
-| Semi-Structured | Data with partial organization, often using templates or dot phrases.                                                            | Observational Notes, Patient-Reported Data |
-| Temporal Data    | Data associated with time, often critical in clinical contexts to track events, trends, or changes over time.                     | Vitals trends, medication timing, timestamps|
-| Categorical Data | Data that represents discrete categories or groups, often used for stratification or filtering.                                   | Blood type, race/ethnicity, diagnosis codes|
-| Numerical Data   | Data expressed as numbers, typically used in calculations or statistical models.                                                  | Lab values, BMI, age                       |
-| Metadata        | Data that describes other data, providing context or information about data origin, creation, or modifications.                   | Record creation date, author, data source  |
-| Log Data         | System-generated data that tracks events, interactions, or system usage.                                                         | Access logs, audit trails                  |
-| Image Metadata   | Structured data that describes imaging files, often linked to unstructured image content.                                         | Modality, study date, resolution           |
-| Probabilistic Data| Data representing likelihoods or uncertainties, often derived from predictive models or algorithms.                              | Risk scores, probability of disease        |
-| Genomic Data     | Data derived from DNA or RNA sequencing, often linked to structured and unstructured interpretations.                             | SNPs, variant annotations                  |
-| Spatial Data    | Data that includes a geographical or physical location component, often used in public health or facility management.              | Patient location, regional outbreak data   |
-| Hierarchical Data| Data organized into a tree-like structure, often representing relationships or nested levels of detail.                          | Clinical ontologies, procedure-taxonomy relationships|
-| Point-in-Time Data | Data calculated or derived at a specific moment, often transient and not stored persistently. Used for real-time decision-making or immediate reference. These are not stored in Epic, as such these are not available in the Research Data Warehouse.| Real-time risk scores, dynamically calculated BMI, transient alerts |
+| **Theme**             | **Data type**          | **Definition**                                                                                                    | **Examples**                                  |
+|------------------------|------------------------|------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| Basic Data Types       | Qualitative Data      | Non-numeric data that describes characteristics, attributes, or qualities, often capturing subjective information.| Patient-reported symptoms, clinical notes, free-text comments |
+| Basic Data Types       | Quantitative Data     | Numeric data that can be measured and analyzed mathematically, often used for statistical or computational purposes.| Lab results, BMI, heart rate, medication dosages |
+| Data Format and Organization | Categorical Data    | Data that represents discrete categories or groups, often used for stratification or filtering.                   | Blood type, race/ethnicity, diagnosis codes   |
+| Data Format and Organization | Hierarchical Data   | Data organized into a tree-like structure, often representing relationships or nested levels of detail.            | Clinical ontologies, procedure-taxonomy relationships |
+| Data Format and Organization | Metadata            | Data that describes other data, providing context or information about data origin, creation, or modifications.     | Record creation date, author, data source     |
+| Data Format and Organization | Semi-Structured Data | Data with partial organization, often using templates or dot phrases.                                             | Observational Notes, Patient-Reported Data    |
+| Data Format and Organization | Structured Data     | Highly organized data stored in predefined fields.                                                                | Lab Results, Orders                           |
+| Data Format and Organization | Unstructured Data   | Free-form text or data without a predefined schema.                                                               | Free Text, Imaging data raw files             |
+| Derived or Dynamic Data | Derived Data         | Data created through algorithms or processing of raw data.                                                        | Clinical Phenotype, Flags, NLP outputs        |
+| Derived or Dynamic Data | Point-in-Time Data   | Data calculated or derived at a specific moment, often transient and not stored persistently. Used for real-time decision-making or immediate reference. | Real-time risk scores, dynamically calculated BMI, transient alerts |
+| Derived or Dynamic Data | Probabilistic Data   | Data representing likelihoods or uncertainties, often derived from predictive models or algorithms.               | Risk scores, probability of disease           |
+| Specialized Data Types  | Genomic Data         | Data derived from DNA or RNA sequencing, often linked to structured and unstructured interpretations.              | SNPs, variant annotations                     |
+| Specialized Data Types  | Image Metadata       | Structured data that describes imaging files, often linked to unstructured image content.                          | Modality, study date, resolution              |
+| Specialized Data Types  | Log Data             | System-generated data that tracks events, interactions, or system usage.                                          | Access logs, audit trails                     |
+| Specialized Data Types  | Spatial Data         | Data that includes a geographical or physical location component, often used in public health or facility management.| Patient location, regional outbreak data      |
+| Specialized Data Types  | Temporal Data        | Data associated with time, often critical in clinical contexts to track events, trends, or changes over time.      | Vitals trends, medication timing, timestamps  |
 
 
 | **Data Terms** | **Details**  | **Data type** |**Example**|
