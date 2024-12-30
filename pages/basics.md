@@ -70,7 +70,7 @@ Below are data elements and terms to be familiar with when working with the CDW-
 |Dot phrase (also referred to as ‘smartphrase’)|Allows user to type a few characters that automatically expand into a longer phrase, paragraph, or template. Allows common/standardized text, sections, and/or instructions to populate, thereby minimally controling standardization of the note format.|Semi-structured| example|
 |Smart form| An EMR-based clinical workflow tool to organize data capture, standardize encounter documentation, and incorporate decision support and/or recommendations for care. Can include functionality to automatically populate the note with data captured elsewhere in the patient’s medical record. Used across teams or clinics/departments to increase standardization in charting/notes| Structured| COVID intake|
 |Flowsheet|Tool that collects discrete data in a particular format. Allows for standard data entry and easy data extraction.|Structured|Vitals|
-|Flag|Term used for a mechanism leveraging various data available in Epic via phenotyping that alerts of the presence (or absence) of a particular condition, situation, need, problem in the data|Derived, Binary|CDW-R SUD alogirthm|
+|Flag|Term used for a mechanism leveraging various data available in Epic via phenotyping that alerts of the presence (or absence) of a particular condition, situation, need, problem in the data|Derived, Binary|CDW-R SUD algorithm|
 |Indicator|Y/N field in Epic|Binary|example|
 
 ### Data Quality
