@@ -34,6 +34,19 @@ Without proper data literacy:
 - Researchers may overlook valuable patterns or trends.
 
 ---
+### Data Quality
+
+Data quality refers to the accuracy, completeness, consistency, and reliability of data, ensuring it is fit for its intended purpose. High-quality data is essential for generating meaningful insights, supporting sound decision-making, and maintaining the integrity of research and clinical processes. Key dimensions of data quality include:
+
+- **Accuracy**: Ensures the data reflects the real-world entities or events it represents.
+- **Completeness**: Verifies that all necessary data elements are present.
+- **Consistency**: Confirms uniformity across data sources and systems.
+- **Timeliness**: Ensures the data is up-to-date and relevant at the time of use.
+- **Provenance**: Tracks the origin and history of data to maintain its integrity.
+
+The CDW-R is primarily responsible for ensuring data quality across its curated datasets. The team works closely with researchers and study teams as needed to address data quality concerns and tailor datasets for their specific research objectives. By partnering with the CDW-R, teams can trust that their data is reliable, accurate, and well-suited for meaningful analysis.
+
+---
 ## Basic Data Terminology
 
 Before diving into clinical-specific terms like encounters or demographics, it’s crucial to understand foundational data concepts:
@@ -72,18 +85,6 @@ Below are data elements and terms to be familiar with when working with the CDW-
 |Flowsheet|Tool that collects discrete data in a particular format. Allows for standard data entry and easy data extraction.|Structured|Vitals|
 |Flag|Term used for a mechanism leveraging various data available in Epic via phenotyping that alerts of the presence (or absence) of a particular condition, situation, need, problem in the data|Derived, Binary|CDW-R SUD algorithm|
 |Indicator|Y/N field in Epic|Binary|example|
-
-### Data Quality
-
-Data quality refers to the accuracy, completeness, consistency, and reliability of data, ensuring it is fit for its intended purpose. High-quality data is essential for generating meaningful insights, supporting sound decision-making, and maintaining the integrity of research and clinical processes. Key dimensions of data quality include:
-
-- **Accuracy**: Ensures the data reflects the real-world entities or events it represents.
-- **Completeness**: Verifies that all necessary data elements are present.
-- **Consistency**: Confirms uniformity across data sources and systems.
-- **Timeliness**: Ensures the data is up-to-date and relevant at the time of use.
-- **Provenance**: Tracks the origin and history of data to maintain its integrity.
-
-The CDW-R is primarily responsible for ensuring data quality across its curated datasets. The team works closely with researchers and study teams as needed to address data quality concerns and tailor datasets for their specific research objectives. By partnering with the CDW-R, teams can trust that their data is reliable, accurate, and well-suited for meaningful analysis.
 
 ---
 
