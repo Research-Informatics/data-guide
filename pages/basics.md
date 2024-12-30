@@ -37,31 +37,31 @@ Without proper data literacy:
 
 ---
 
-## 3. Clinical Data Structures
+## Clinical Data Structures
 
 Clinical data is stored and organized in various structures, each designed to suit specific needs:
 
-### 3.1 Flat Files
+### Flat Files
 - **Definition**: Simple, two-dimensional tables (e.g., CSV, Excel).
 - **Use Case**: Small datasets, quick analyses.
 - **Limitations**: Difficult to manage relationships between data points.
 - **Note that the CDW-R rarely delivers data in flat files, and it is the expectation that the study team has the ability to transform their data as necessary.**
 
-### 3.2 Relational Databases
+### Relational Databases
 - **Definition**: Data stored in structured tables with defined relationships (e.g., Epic Clarity).
 - **Use Case**: Managing complex datasets with relationships (e.g., patients, visits, labs).
 - **Key Features**:
   - Tables are linked using primary and foreign keys.
   - SQL is used to query data.
 
-### 3.3 Data Warehouses
+### Data Warehouses
 - **Definition**: Central repositories for integrating data from multiple sources (e.g., Epic Caboodle).
 - **Use Case**: Long-term storage, large-scale analytics, and multi-departmental research.
 - - **Note: the CDW-R has built a bespoke Research Data Warehouse, leveraging Epic's Clarity and Caboodle, as well as integrating external and legacy data sources. 
 
 ---
 
-## 4. Data Sources
+## Data Sources
 
 Clinical research data comes from various sources, each with unique attributes:
 
@@ -72,13 +72,11 @@ Clinical research data comes from various sources, each with unique attributes:
 
 ---
 
-## 5. Basic Data Terminology
+## Basic Data Terminology
 
 Before diving into clinical-specific terms like encounters or demographics, itâ€™s crucial to understand foundational data concepts:
 
-## Data types
-
-## Data Type Definitions
+### Data Type Definitions
 
 | **Theme**             | **Data type**          | **Definition**                                                                                                    | **Examples**                                  |
 |------------------------|------------------------|------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
@@ -110,18 +108,18 @@ Before diving into clinical-specific terms like encounters or demographics, itâ€
 |Flag|Term used for a mechanism leveraging various data available in Epic via phenotyping that alerts of the presence (or absence) of a particular condition, situation, need, problem in the data|Derived, Binary|CDW-R SUD alogirthm|
 |Indicator|Y/N field in Epic|Binary|example|
 
-### 5.2 Structured vs. Unstructured Data
-- **Structured Data**: Highly organized (e.g., lab values in predefined fields).
-- **Unstructured Data**: Lacks a fixed format (e.g., free-text notes).
+### Data Quality
 
-### 5.3 Data Quality
-- **Completeness**: Is all required data present?
-- **Consistency**: Are values uniform across datasets?
-- **Accuracy**: Does the data reflect reality?
+Data quality refers to the accuracy, completeness, consistency, and reliability of data, ensuring it is fit for its intended purpose. High-quality data is essential for generating meaningful insights, supporting sound decision-making, and maintaining the integrity of research and clinical processes. Key dimensions of data quality include:
 
-### 5.4 Metadata
-- **Definition**: Data about data (e.g., when a record was created, by whom).
-- **Importance**: Helps in tracking provenance and ensuring proper usage.
+- **Accuracy**: Ensures the data reflects the real-world entities or events it represents.
+- **Completeness**: Verifies that all necessary data elements are present.
+- **Consistency**: Confirms uniformity across data sources and systems.
+- **Timeliness**: Ensures the data is up-to-date and relevant at the time of use.
+- **Provenance**: Tracks the origin and history of data to maintain its integrity.
+
+The CDW-R is primarily responsible for ensuring data quality across its curated datasets. The team works closely with researchers and study teams as needed to address data quality concerns and tailor datasets for their specific research objectives. By partnering with the CDW-R, teams can trust that their data is reliable, accurate, and well-suited for meaningful analysis.
+
 
 ### 5.5 Data Relationships
 - **Primary Key**: Unique identifier for a record (e.g., patient ID).
