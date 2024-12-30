@@ -1,6 +1,7 @@
 ---
 title: Using Clinical Data for Research
 layout: default
+permalink: /using-clinical-data-research
 ---
 
 ### Using Clinical Data for Research
