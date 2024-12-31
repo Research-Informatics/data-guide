@@ -141,8 +141,11 @@ Standing orders in Epic play a crucial role in clinical workflows, particularly 
 - Supplementary datasets (e.g., flowsheets, procedure logs, scheduling data) are often required to fully understand whether and how standing orders were acted upon.
 - Misinterpreting standing orders as completed events can lead to inaccurate conclusions in research and operational analyses.
 
+### Considerations for Orders in Research
 
-### Considerations for Research
+Orders in Epic, such as those for labs, imaging, and medications, are complex and multifaceted. They may include standing orders, recurring orders, or those placed in advance, such as mammograms. Researchers should be aware of nuances such as order statuses (e.g., completed, cancelled), conditional triggers (e.g., PRN medications), and modifications made post-placement. Additionally, orders often require linkage to results, outcomes, or execution data to confirm they were performed as intended, as standing orders or advance schedules might only reflect intent. While these details are critical for understanding clinical workflows and interpreting data, the CDW-R programmatically handles these concerns by linking orders to results, ensuring accurate execution status, and resolving metadata inconsistencies to provide researchers with reliable datasets.
+
+<!--### Considerations for Research
 
 - **Order Context**: Understand the clinical setting of the order. Inpatient orders are often part of acute care workflows, while outpatient orders may reflect chronic disease management or preventive care.
 
@@ -161,5 +164,4 @@ Standing orders in Epic play a crucial role in clinical workflows, particularly 
 - Standardizing order terminology and attributes to facilitate cross-institutional research.
 - Leveraging natural language processing (NLP) to extract additional context from order instructions.
 - Using predictive analytics to identify patterns in orders that may lead to improved patient outcomes or reduced costs.
-
 <!-- order questions and responses -->
