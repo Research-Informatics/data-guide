@@ -107,17 +107,40 @@ Orders are a cornerstone of clinical workflows, representing instructions for di
   </tbody>
 </table>
 
-### Key Elements of Orders in Epic
 
-- **Order Type**: Orders are categorized into various types, such as medication orders, diagnostic test orders, procedure orders, and consult orders. Each type has unique attributes and implications for clinical and research use.
+### Standing Orders
 
-- **Order Status**: The status of an order (e.g., "Active," "Completed," "Cancelled") provides insight into the lifecycle of the order and its execution.
+Standing orders in Epic play a crucial role in clinical workflows, particularly for inpatient and outpatient settings. However, certain nuances must be considered when interpreting standing orders in research or operational contexts.
 
-- **Ordering Provider**: The clinician who initiated the order, which can be used to study provider behavior and adherence to guidelines.
+#### **Inpatient Standing Orders**
+- **Orders Prepared for Potential Use**:
+  - Some inpatient orders, such as those for **restraints** or emergency interventions, are placed in advance to ensure they are available if needed. These orders are often "sent" or marked as active, but their **metadata alone does not confirm** whether the intervention actually occurred.
+  - For example, a restraint order might be placed as a precaution during a behavioral health admission, but unless additional documentation (e.g., nursing notes, flowsheets, or administration logs) is reviewed, you cannot ascertain whether the restraint was applied.
 
-- **Order Instructions**: Specific details or modifications, such as dosage adjustments for medications or special handling requirements for tests.
+- **How to Validate Usage**:
+  - To determine whether a standing order was executed:
+    - Check **flowsheet data** for documentation of the event (e.g., restraint usage logs).
+    - Look at **nursing notes** or **incident reports** that provide contextual evidence of execution.
 
-- **Order-Linked Data**: Orders are often linked to results, such as lab findings, imaging studies, or procedural outcomes, enabling comprehensive analyses.
+#### **Outpatient Standing Orders**
+- **Orders Scheduled in Advance**:
+  - Some orders are placed well in advance of the intended date of execution. Examples include:
+    - **Screening mammograms**: A standing order may be created months or even a year before the scheduled appointment.
+    - **Vaccinations**: Orders may be placed during routine checkups for administration during the flu season.
+
+- **Implications for Research**:
+  - The **order placement date** might significantly differ from the **execution date**, which is critical to consider when analyzing outpatient data.
+  - For instance, a mammogram order placed in January with an appointment scheduled for October would appear active for several months. To accurately tie the order to an event, you must query scheduling data or procedure completion records.
+
+- **Validation Techniques**:
+  - Cross-reference with **appointment data** or **procedure results** to confirm whether and when the order was carried out.
+  - For vaccinations, check **medication administration records (MAR)** for evidence of administration.
+
+#### **General Considerations**
+- Standing orders reflect **intent**, not necessarily **execution**.
+- Supplementary datasets (e.g., flowsheets, procedure logs, scheduling data) are often required to fully understand whether and how standing orders were acted upon.
+- Misinterpreting standing orders as completed events can lead to inaccurate conclusions in research and operational analyses.
+
 
 ### Considerations for Research
 
