@@ -3,20 +3,12 @@ title: Labs
 layout: default
 ---
 
-Laboratory data is a cornerstone of clinical research, offering precise and measurable insights into patient health across a wide range of conditions. Collected in both inpatient and outpatient care settings, lab results support analyses of disease prevalence, treatment effectiveness, and patient outcomes. Labs provide critical biomarkers that guide diagnosis, monitor disease progression, and evaluate therapeutic interventions.
+Laboratory data is a cornerstone of clinical decision-making, but when used for research, its utility extends beyond individual values to trends and patterns across patient populations. From a data literacy perspective, researchers should recognize that lab data in Epic is stored in structured formats that often require linkage between orders and results to ensure proper interpretation.
 
-In the inpatient setting, lab data often captures acute changes in patient health, such as electrolyte imbalances, infection markers, or organ function tests, frequently ordered at high frequency during critical care episodes. Conversely, in the outpatient setting, labs are typically used for routine monitoring, chronic disease management, and preventive care, offering a longitudinal perspective on patient health.
+Derived metrics such as **"if ever,"** **"min,"** **"max,"** and **"most recent"** lab values are particularly useful for research. These allow researchers to quickly identify clinically significant events (e.g., a peak potassium level indicating hyperkalemia), assess trends over time (e.g., changes in hemoglobin), and establish baselines for comparison. For example, the **"if ever"** metric can determine whether a threshold value was reached during a patient's care, while **"min"** and **"max"** provide key indicators of severity or recovery.
 
-## Key Considerations for Research:
-- Relevance to Research Question: Align lab data requests with the specific biomarkers or tests relevant to your study. For example, request glucose and HbA1c levels for diabetes research or inflammatory markers for autoimmune studies.
+The CDWR programmatically calculates these metrics, integrates them with encounter-level data, and resolves common challenges such as duplicate results or missing timestamps. This ensures researchers can access harmonized datasets ready for advanced analysis while minimizing the need for manual preprocessing.
 
-- Frequency and Timing: Understand the temporal nature of lab orders and results. Inpatient labs may be repeated multiple times daily, whereas outpatient labs are often scheduled at periodic intervals. Consider the time frame that aligns with your study objectives.
-- Lab Panels and Components: Labs may be reported as part of broader panels (e.g., complete metabolic panel). Be explicit if you need individual components or derived values (e.g., eGFR from creatinine).
-- Normalization and Variability: Lab results can vary based on collection methods, patient factors (e.g., acute distress), and care settings. Work with the CDW-R if you want to refine the labs you are collecting.
-- Flow of Care: Reflect on the setting and context of lab orders. Are labs ordered as part of an acute inpatient episode, or are they part of chronic disease management in outpatient care? Understanding this flow helps in interpreting results accurately.
-- Are you using the labs to define the cohort, or do you need labs for the cohort of interest?
-- Labs often have a variety of names; the CDW-R will work with the Research team to ensure they are capturing all appropriate labs.
-  
 <!--
 ## CDW-R Curated Data Fields & Definitions
 
