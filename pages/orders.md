@@ -114,27 +114,16 @@ Standing orders in Epic play a crucial role in clinical workflows, particularly 
 
 #### **Inpatient Standing Orders**
 - **Orders Prepared for Potential Use**:
-  - Some inpatient orders, such as those for **restraints** or emergency interventions, are placed in advance to ensure they are available if needed. These orders are often "sent" or marked as active, but their **metadata alone does not confirm** whether the intervention actually occurred.
-  - For example, a restraint order might be placed as a precaution during a behavioral health admission, but unless additional documentation (e.g., nursing notes, flowsheets, or administration logs) is reviewed, you cannot ascertain whether the restraint was applied.
-
-- **How to Validate Usage**:
-  - To determine whether a standing order was executed:
-    - Check **flowsheet data** for documentation of the event (e.g., restraint usage logs).
-    - Look at **nursing notes** or **incident reports** that provide contextual evidence of execution.
+  - Some inpatient orders, such as those for **restraints** or emergency interventions, are placed in advance to ensure they are available if needed. These orders are often "sent" but further data is required to determined whether the intervention actually occurred.
+  - For example, a restraint order might be placed as a precaution during a behavioral health admission, but unless additional documentation (e.g., nursing notes, is reviewed, you cannot ascertain whether the restraint was applied.
+  - The CDW-R will work with study teams when necessary and leverage advanced NLP techniques to ensure they have the data necessary to operationalize their analysis.
 
 #### **Outpatient Standing Orders**
 - **Orders Scheduled in Advance**:
   - Some orders are placed well in advance of the intended date of execution. Examples include:
     - **Screening mammograms**: A standing order may be created months or even a year before the scheduled appointment.
     - **Vaccinations**: Orders may be placed during routine checkups for administration during the flu season.
-
-- **Implications for Research**:
-  - The **order placement date** might significantly differ from the **execution date**, which is critical to consider when analyzing outpatient data.
-  - For instance, a mammogram order placed in January with an appointment scheduled for October would appear active for several months. To accurately tie the order to an event, you must query scheduling data or procedure completion records.
-
-- **Validation Techniques**:
-  - Cross-reference with **appointment data** or **procedure results** to confirm whether and when the order was carried out.
-  - For vaccinations, check **medication administration records (MAR)** for evidence of administration.
+  - In these cases, the ordering date might significantly differ from the performed date which is critical to consider when analyzing outpatient data. As such, the CDW-R will ensure this is considered in the query derivation stages and curate the data accordingly. 
 
 #### **General Considerations**
 - Standing orders reflect **intent**, not necessarily **execution**.
