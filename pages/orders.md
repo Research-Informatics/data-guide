@@ -29,6 +29,104 @@ Orders are a cornerstone of clinical workflows, representing instructions for di
 |                          |                                                                                 | Observation Orders      | Close monitoring for specific conditions.                | Suicide watch for at-risk patients                   |
 |                          |                                                                                 | Patient Care Activities | Instructions for nursing tasks or care routines.         | Turning patient every 2 hours to prevent ulcers      |
 
+<table>
+  <thead>
+    <tr>
+      <th>Order Type</th>
+      <th>Description</th>
+      <th>Subtype</th>
+      <th>Subtype Explanation</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4">Medication Orders</td>
+      <td rowspan="4">Orders for prescription and non-prescription medications.</td>
+      <td>PRN Medications</td>
+      <td>Administered as needed based on patient conditions.</td>
+      <td>Acetaminophen 500 mg every 6 hours as needed for pain</td>
+    </tr>
+    <tr>
+      <td>Scheduled Medications</td>
+      <td>Administered at regular, predetermined times.</td>
+      <td>Aspirin 81 mg daily</td>
+    </tr>
+    <tr>
+      <td>Titrated Medications</td>
+      <td>Adjusted based on patient responses or lab results.</td>
+      <td>Insulin sliding scale</td>
+    </tr>
+    <tr>
+      <td>One-Time Medications</td>
+      <td>Administered once for a specific need.</td>
+      <td>Pre-op antibiotics</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Laboratory Orders</td>
+      <td rowspan="3">Orders for diagnostic or monitoring lab tests.</td>
+      <td>Routine Labs</td>
+      <td>Performed regularly as part of care.</td>
+      <td>Complete Blood Count (CBC)</td>
+    </tr>
+    <tr>
+      <td>STAT Labs</td>
+      <td>Performed urgently for immediate clinical need.</td>
+      <td>Arterial blood gas</td>
+    </tr>
+    <tr>
+      <td>Panels</td>
+      <td>Grouped tests for efficiency.</td>
+      <td>Complete Metabolic Panel (CMP)</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Radiology/Imaging Orders</td>
+      <td rowspan="3">Orders for diagnostic imaging procedures.</td>
+      <td>Plain X-Ray</td>
+      <td>Basic imaging for simple evaluations.</td>
+      <td>Chest X-ray for pneumonia evaluation</td>
+    </tr>
+    <tr>
+      <td>Advanced Imaging</td>
+      <td>Detailed imaging for complex conditions.</td>
+      <td>CT scan of the abdomen with contrast</td>
+    </tr>
+    <tr>
+      <td>Interventional Radiology</td>
+      <td>Imaging-guided procedures.</td>
+      <td>CT-guided biopsy</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Procedure Orders</td>
+      <td rowspan="3">Orders for invasive or non-invasive procedures.</td>
+      <td>Diagnostic Procedures</td>
+      <td>Procedures for identifying conditions.</td>
+      <td>Colonoscopy with biopsy</td>
+    </tr>
+    <tr>
+      <td>Therapeutic Procedures</td>
+      <td>Procedures for treating conditions.</td>
+      <td>Hemodialysis for renal failure</td>
+    </tr>
+    <tr>
+      <td>Minor Procedures</td>
+      <td>Simple outpatient procedures.</td>
+      <td>Laceration repair</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Consultation Orders</td>
+      <td rowspan="2">Requests for specialized provider or service evaluations.</td>
+      <td>Inpatient Consults</td>
+      <td>Specialist evaluation during hospital stay.</td>
+      <td>Cardiology consult for chest pain</td>
+    </tr>
+    <tr>
+      <td>Outpatient Referrals</td>
+      <td>Follow-up care in a clinic setting.</td>
+      <td>Referral to physical therapy</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Key Elements of Orders in Epic
 
