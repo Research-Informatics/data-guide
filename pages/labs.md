@@ -7,7 +7,7 @@ Laboratory data is a cornerstone of clinical decision-making, but when used for 
 
 Derived metrics such as **"if ever,"** **"min,"** **"max,"** and **"most recent"** lab values are particularly useful for research. These allow researchers to quickly identify clinically significant events (e.g., a peak potassium level indicating hyperkalemia), assess trends over time (e.g., changes in hemoglobin), and establish baselines for comparison. For example, the **"if ever"** metric can determine whether a threshold value was reached during a patient's care, while **"min"** and **"max"** provide key indicators of severity or recovery.
 
-The CDWR programmatically calculates these metrics, integrates them with encounter-level data, and resolves common challenges such as duplicate results or missing timestamps. This ensures researchers can access harmonized datasets ready for advanced analysis while minimizing the need for manual preprocessing.
+The CDW-R programmatically calculates these metrics, integrates them with encounter-level data, and resolves common challenges such as duplicate results or missing timestamps. This ensures researchers can access harmonized datasets ready for advanced analysis while minimizing the need for manual preprocessing.
 
 <!--
 ## CDW-R Curated Data Fields & Definitions
