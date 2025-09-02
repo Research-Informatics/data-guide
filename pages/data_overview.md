@@ -1,6 +1,8 @@
 ---
-title: Data Available in the Research Data Warehouse
+title: Available Data in the Research Data Warehouse
 layout: default
+nav_order: 20
+has_children: true
 ---
 
 Please visit the [CDW for Research's website](https://www.bmc.org/research/clinical-data-warehouse-cdw) for more information on accessing clinical data for Research. 
