@@ -1,24 +1,36 @@
-# Site settings
 title: BMC Research Informatics Data Dictionary
 email: cdw@bmc.org
 description: Start here.
-baseurl: "/data-guide"
-repository: "https://research-informatics.github.io/data-guide/"
-permalinks: pretty
-defaults:
-  -
-    scope:
-      path: "" # Apply to all files
-    values:
-      layout: "default"
 
-# Build settings
+# GitHub Pages URL + baseurl (adjust url if needed)
+url: "https://research-informatics.github.io"
+baseurl: "/data-guide"
+
+permalinks: pretty
 markdown: kramdown
 highlighter: rouge
 
-# Add your custom CSS
-include:
-  - assets/css/main.css  # Add your CSS file path here
+# Theme
+remote_theme: just-the-docs/just-the-docs@v0.7.0
 
+# just-the-docs options
+just_the_docs:
+  nav_sort: case_insensitive
+  nav_fold: true          # collapses child sections by default
+  search_enabled: true
+  color_scheme: nil       # or "dark" if you want dark mode
+
+# Keep your default layout unless you’ve customized it heavily
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: default
+
+# Optional GitHub link in header
+aux_links:
+  "View on GitHub":
+    - "https://github.com/research-informatics/data-guide"
+
+# Custom CSS (optional; see step 3)
 sass:
   style: compressed
