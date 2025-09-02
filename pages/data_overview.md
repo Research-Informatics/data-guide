@@ -8,35 +8,40 @@ has_children: true
 Please visit the [CDW for Research's website](https://www.bmc.org/research/clinical-data-warehouse-cdw) for more information on accessing clinical data for Research. 
 Fill out a [data request form](https://bmc.tfaforms.net/f/cdw-data-request-form).
 
-This section is intended to inform the Research Community on the data available in the Research Data Warehouse via the CDW-R team as well as the nuances of clinical data and things to consider when approaching the data. 
-Our team of experts are specialized in leveraging data for Research, and account for all of the nuances of clinical data when approaching your data request. We will advise on the data required for your Research question and help you ascertain feasibility. We use our discretion when advising on data to ensure optimal data quality and integrity. 
 
+This section introduces the types of data available through the Research Data Warehouse, along with important considerations for working with clinical data. The CDW-R team will help determine the data most relevant to your research question and advise on feasibility, quality, and integrity.
 
-## Data Notes, Common Defintions, and Things to Know:
+---
 
-|  <!-- --> | Details  |
-| :----------- | :----------- |
-|Epic Inpatient|Implemented May 2014|
-| Epic Outpatient | Implemented May 2015|
-| Epic Billing | Implemented May 2018. For the cleanest data set, we recommend keeping your date range beyond May 2018, particularly if your study question or cohort inclusion requires CPTs or procedures codes.|
-| Epic Clarity | Epic relational database|
-| Epic Caboodle| Epic relational database representing a subset of Clarity|
-| Legacy data| Data from various legacy systems prior to Epic implementation. We can extract data from legacy clinical systems; however, legacy systems are not actively maintained, data from them are not monitored for quality, and extracting legacy data can double the amount of data analyst coding time required to extract data. We encourage researchers to consider whether their research question and/or sample size requires data from legacy systems|
-| ICD-10 codes | Coding for diseases and health-related problems. Implemented October 2015. We recommend keeping your data request after October 2015; in doing so, you will not need to consider ICD-9. |
-| BMC Research Data Warehouse|BMC's bespoke data warehouse tailored to research built by the CDW for Research team|
+## Data Notes and Common Definitions
 
+| **Source / System** | **Details** |
+|----------------------|-------------|
+| **Epic Inpatient** | Implemented May 2014. |
+| **Epic Outpatient** | Implemented May 2015. |
+| **Epic Billing** | Implemented May 2018. For the cleanest dataset, we recommend limiting requests to after this date, particularly if your study relies on CPTs or procedure codes. |
+| **Epic Clarity** | Epic’s relational database. |
+| **Epic Caboodle** | Epic’s curated relational database representing a subset of Clarity. |
+| **Legacy Data** | Data from systems prior to Epic implementation. These sources are not actively maintained and are not monitored for quality. Extracting legacy data may double analyst coding time. Consider carefully whether legacy data is essential for your study. |
+| **ICD-10 Codes** | Implemented October 2015. Requests limited to data after this date avoid the need to reconcile ICD-9. |
+| **BMC Research Data Warehouse** | Bespoke warehouse built by the CDW-R team, integrating Clarity, Caboodle, and selected external and legacy sources for research. |
 
-## Data types
+---
 
-| **Data Terms** | **Details**  | **Data type** |**Example**|
-| :----------- | :----------- |:----------- |:----------- |
-| Clinical Phenotype | An observable clinical condition or characteristic that can be identified by querying the electronic health record for a defined set of data elements  |Derived| CDW-R housing algorithm|
-|Free Text| often narrative text; no data entry control. May include misinformation, misclassification, and issues such as spelling errors| Unstructured| clinical notes|
-|Dot phrase (also referred to as ‘smartphrase’)|Allows user to type a few characters that automatically expand into a longer phrase, paragraph, or template. Allows common/standardized text, sections, and/or instructions to populate, thereby minimally controling standardization of the note format.|Semi-structured| example|
-|Smart form| An EMR-based clinical workflow tool to organize data capture, standardize encounter documentation, and incorporate decision support and/or recommendations for care. Can include functionality to automatically populate the note with data captured elsewhere in the patient’s medical record. Used across teams or clinics/departments to increase standardization in charting/notes| Structured| COVID intake|
-|Flowsheet|Tool that collects discrete data in a particular format. Allows for standard data entry and easy data extraction.|Structured|Vitals|
-|Flag|Term used for a mechanism leveraging various data available in Epic via phenotyping that alerts of the presence (or absence) of a particular condition, situation, need, problem in the data|Derived, Binary|CDW-R SUD alogirthm|
-|Indicator|Y/N field in Epic|Binary|example|
+## Data Types in the EHR
+
+| **Data Term** | **Details** | **Data Type** | **Example** |
+|---------------|-------------|---------------|-------------|
+| **Clinical Phenotype** | A defined condition identified by querying a set of EHR data elements. | Derived | CDW-R housing algorithm |
+| **Free Text** | Narrative text without entry controls; may include errors or inconsistencies. | Unstructured | Clinical notes |
+| **Dot Phrase (SmartPhrase)** | Shortcut text that expands into longer, standardized text. | Semi-structured | “.covidscreen” expands to screening questions |
+| **Smart Form** | Structured tool for encounter documentation, often with decision support. | Structured | COVID intake form |
+| **Flowsheet** | Captures discrete values in a consistent format. | Structured | Vitals flowsheet |
+| **Flag** | Algorithm-driven indicator of the presence/absence of a condition or need. | Derived (Binary) | CDW-R SUD algorithm |
+| **Indicator** | Simple yes/no field in Epic. Could be derived.| Binary | “Is patient pregnant?” |
+
+---
+
 
 ## Data Available and Details
 
@@ -49,4 +54,19 @@ Our team of experts are specialized in leveraging data for Research, and account
 | CPT codes| xx | xx | 
 
 
-note on cohort inclusion vs needing the data for a cohort
+## Data Available and Details
+
+| **Data Category** | **Data Fields** | **Notes** |
+|-------------------|-----------------|-----------|
+| **Inpatient Utilization** | ICD-10 codes at the patient level. Dates exist but may not reflect date of onset. |
+| **Patient Problem List** | ICD-10 codes at the patient level. Dates exist but may not reflect date of onset. |
+| **Past Medical History** | Patient-reported history without associated encounters. Free text; may lack structured dates. Clinicians may see this under Problem List, but entries are greyed or flagged as past medical history. |
+| **Research Informatics HRSN** | Screens up to 8 domains of health-related social needs. Captures responses as ICD-10 visit diagnosis codes. Tool versions vary by clinic, rollout, and number of questions. Patients may decline screening or skip questions, which affects denominators and screening rates. |
+| **CPT Codes** | Procedure codes. See [Data Frameworks section](/data-frameworks-clinical-classifications/) for details on coding systems. |
+
+---
+
+## Important Note on Cohorts
+
+The data you request to **define your cohort** may differ from the data you need for **analysis**. For example, you may identify a cohort of patients with a surgical CPT code, but then request additional labs, vitals, or follow-up encounters for analysis. The CDW-R team will help you distinguish between **inclusion criteria** and **analysis fields** so that your dataset is accurate and fit for purpose.
+
