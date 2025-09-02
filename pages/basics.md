@@ -2,111 +2,110 @@
 title: Data Literacy Basics
 layout: default
 ---
-Data literacy is the ability to read, understand, create, and communicate data as information. For researchers, it involves:
+Data literacy is the ability to read, understand, and communicate data as information. For researchers, it means being able to:
 
-- **Understanding the data lifecycle**: Knowing how data is captured and moves through its lifecycle.
-- **Understanding data structures**: Knowing how data is organized and stored.
-- **Analyzing data**: Extracting insights and drawing conclusions.
-- **Communicating findings**: Presenting data in a meaningful way to inform decisions or drive change.
+- **Understand the data lifecycle**: How data is captured and moves through its stages.  
+- **Work with data structures**: How data is organized and stored.  
+- **Analyze data**: Extracting insights and drawing conclusions.  
+- **Communicate findings**: Presenting results clearly to inform decisions and drive change.  
 
-In the context of clinical research, data literacy empowers researchers to:
+In clinical research, data literacy helps researchers:  
 
-- Navigate complex healthcare datasets effectively.
-- Make evidence-based decisions that improve patient outcomes.
-- Ensure data-driven insights are accurate, reproducible, and meaningful.
+- Navigate complex healthcare datasets with confidence.  
+- Make evidence-based decisions that improve patient outcomes.  
+- Ensure insights are accurate, reproducible, and meaningful.  
 
-The Research Informatics team, including the CDW-R, is dedicated to ensuring high-quality data and meticulous curation. Our goal is to empower researchers with the knowledge and confidence to work effectively with data, from requesting it for their studies to receiving it for analysis. This guide focuses on the pre-analysis stages of the data lifecycle.
+The Research Informatics team, including the CDW-R, is dedicated to providing high-quality, well-curated data. This guide supports researchers throughout the data lifecycle, with an emphasis on planning, understanding, and analyzing data in a consistent and reliable way.
 
 ---
 
-### Why is Data Literacy Important in Clinical Research?
+### Why Data Literacy Matters in Clinical Research
 
-Clinical research relies on accurate and meaningful data to:
+Clinical research depends on accurate and meaningful data to:  
 
-- **Advance medical knowledge**: Use clinical data to identify patterns, test hypotheses, and develop new treatments.
-- **Improve patient outcomes**: Inform decision-making and clinical guidelines based on real-world evidence.
-- **Optimize resource utilization**: Ensure research is efficient and impactful.
+- **Advance medical knowledge**: Identify patterns, test hypotheses, and develop treatments.  
+- **Improve patient outcomes**: Inform guidelines and decisions using real-world evidence.  
+- **Use resources efficiently**: Ensure research is impactful and reproducible.  
 
-Without proper data literacy:
-
-- Insights can be misinterpreted, leading to poor decisions.
-- Errors may compromise research integrity.
-- Researchers may overlook valuable patterns or trends.
+Without strong data literacy, insights may be misinterpreted, errors can compromise integrity, and important patterns may be overlooked.  
 
 ---
 ### Data Quality
 
-Data quality refers to the accuracy, completeness, consistency, and reliability of data, ensuring it is fit for its intended purpose. High-quality data is essential for generating meaningful insights, supporting sound decision-making, and maintaining the integrity of research and clinical processes. Key dimensions of data quality include:
+Data quality means data is accurate, complete, consistent, and reliable for its intended purpose. High-quality data is essential for meaningful analysis and sound decision-making.  
 
-- **Accuracy**: Ensures the data reflects the real-world entities or events it represents.
-- **Completeness**: Verifies that all necessary data elements are present.
-- **Consistency**: Confirms uniformity across data sources and systems.
-- **Timeliness**: Ensures the data is up-to-date and relevant at the time of use.
-- **Provenance**: Tracks the origin and history of data to maintain its integrity.
+Key dimensions include:  
+- **Accuracy**: Reflects real-world entities or events.  
+- **Completeness**: Includes all required elements.  
+- **Consistency**: Uniform across sources and systems.  
+- **Timeliness**: Current and relevant when used.  
+- **Provenance**: Tracks the origin and history of data.  
 
-The CDW-R is primarily responsible for ensuring data quality across its curated datasets. The team works closely with researchers and study teams as needed to address data quality concerns and tailor datasets for their specific research objectives. By partnering with the CDW-R, teams can trust that their data is reliable, accurate, and well-suited for meaningful analysis.
+The CDW-R ensures data quality across curated datasets, partnering with researchers to address concerns and tailor data for specific study objectives. By working with the CDW-R, teams can trust that their data is reliable and well-suited for research.  
 
 ---
 ## Basic Data Terminology
 
-Before diving into clinical-specific terms like encounters or demographics, it’s crucial to understand foundational data concepts:
+Before diving into clinical-specific terms like encounters or demographics, it helps to understand some common data types. These categories shape how data is collected, stored, and analyzed in research.  
 
 ### Data Type Definitions
-Below are foundational terms to be familiar with.
 
-| **Theme**             | **Data type**          | **Definition**                                                                                                    | **Examples**                                  |
-|------------------------|------------------------|------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| Basic Data Types       | Qualitative Data      | Non-numeric data that describes characteristics, attributes, or qualities, often capturing subjective information.| Patient-reported symptoms, clinical notes, free-text comments |
-| Basic Data Types       | Quantitative Data     | Numeric data that can be measured and analyzed mathematically, often used for statistical or computational purposes.| Lab results, BMI, heart rate, medication dosages |
-| Data Format and Organization | Categorical Data    | Data that represents discrete categories or groups, often used for stratification or filtering.                   | Blood type, race/ethnicity, diagnosis codes   |
-| Data Format and Organization | Hierarchical Data   | Data organized into a tree-like structure, often representing relationships or nested levels of detail.            | Clinical ontologies, procedure-taxonomy relationships |
-| Data Format and Organization | Metadata            | Data that describes other data, providing context or information about data origin, creation, or modifications.     | Record creation date, author, data source     |
-| Data Format and Organization | Semi-Structured Data | Data with partial organization, often using templates or dot phrases.                                             | Observational Notes, Patient-Reported Data    |
-| Data Format and Organization | Structured Data     | Highly organized data stored in predefined fields.                                                                | Lab Results, Orders                           |
-| Data Format and Organization | Unstructured Data   | Free-form text or data without a predefined schema.                                                               | Free Text, Imaging data raw files             |
-| Derived or Dynamic Data | Derived Data         | Data created through algorithms or processing of raw data.                                                        | Clinical Phenotype, Flags, NLP outputs        |
-| Derived or Dynamic Data | Point-in-Time Data   | Data calculated or derived at a specific moment, often transient and not stored persistently. Used for real-time decision-making or immediate reference. | Real-time risk scores, dynamically calculated BMI, transient alerts |
-| Derived or Dynamic Data | Probabilistic Data   | Data representing likelihoods or uncertainties, often derived from predictive models or algorithms.               | Risk scores, probability of disease           |
-| Specialized Data Types  | Genomic Data         | Data derived from DNA or RNA sequencing, often linked to structured and unstructured interpretations.              | SNPs, variant annotations                     |
-| Specialized Data Types  | Image Metadata       | Structured data that describes imaging files, often linked to unstructured image content.                          | Modality, study date, resolution              |
-| Specialized Data Types  | Log Data             | System-generated data that tracks events, interactions, or system usage.                                          | Access logs, audit trails                     |
-| Specialized Data Types  | Spatial Data         | Data that includes a geographical or physical location component, often used in public health or facility management.| Patient location, regional outbreak data      |
-| Specialized Data Types  | Temporal Data        | Data associated with time, often critical in clinical contexts to track events, trends, or changes over time.      | Vitals trends, medication timing, timestamps  |
+| **Category**             | **Type**              | **Definition**                                                                 | **Examples**                                  |
+|---------------------------|-----------------------|---------------------------------------------------------------------------------|----------------------------------------------|
+| **Foundational**          | Qualitative Data      | Describes characteristics or attributes; non-numeric.                           | Patient-reported symptoms, free-text notes    |
+|                           | Quantitative Data     | Numeric and measurable; can be analyzed statistically.                          | Lab results, BMI, heart rate                  |
+| **Organization & Format** | Structured Data       | Organized into predefined fields.                                               | Lab results, orders                           |
+|                           | Semi-Structured Data  | Partially organized; often follows templates.                                   | Patient-reported surveys, dot phrases         |
+|                           | Unstructured Data     | Free-form with no predefined structure.                                         | Narrative notes, imaging raw files            |
+|                           | Categorical Data      | Groups data into discrete categories.                                           | Blood type, race/ethnicity, diagnosis codes   |
+|                           | Hierarchical Data     | Represents nested relationships.                                                | Clinical ontologies, procedure taxonomies     |
+|                           | Metadata              | Information that describes data itself.                                         | Record creation date, author, data source     |
+| **Derived or Modeled**    | Derived Data          | Created through processing or algorithms.                                       | Flags, phenotypes, NLP outputs                |
+|                           | Probabilistic Data    | Represents likelihoods or predictions.                                          | Risk scores, probability of disease           |
+|                           | Point-in-Time Data    | Calculated at a specific moment for immediate use.                              | Real-time risk score, dynamic BMI             |
+| **Specialized**           | Genomic Data          | Results from DNA/RNA sequencing.                                                | SNPs, variant annotations                     |
+|                           | Image Metadata        | Structured information describing imaging content.                              | Modality, study date, resolution              |
+|                           | Log Data              | Tracks system events or usage.                                                  | Access logs, audit trails                     |
+|                           | Spatial Data          | Includes a location component.                                                  | Patient address, outbreak maps                |
+|                           | Temporal Data         | Captures time or sequence of events.                                            | Vital trends, timestamps, medication timing   |
+
+Below are common data elements and terms to be familiar with when working with the CDW-R and clinical data. Clinical data comes from many sources and is captured in different ways within the electronic health record (EHR). Understanding these terms is important because the way data is entered and stored affects how reliable, consistent, and usable it is for research. Some elements are tightly structured and easy to analyze, while others are free-text or derived through algorithms and require more caution. The terms below describe common data types and tools you will encounter when working with the CDW-R.
 
 
-Below are data elements and terms to be familiar with when working with the CDW-R and clinical data. 
+| **Data Term** | **Details** | **Data Type** | **Example** |
+|---------------|-------------|---------------|-------------|
+| **Clinical Phenotype** | An observable clinical condition or characteristic defined through a set of data elements in the EHR. Often created using algorithms or rules. | Derived | CDW-R housing algorithm |
+| **Free Text** | Narrative text without data entry controls. May contain errors, inconsistencies, or subjective information. | Unstructured | Clinical notes |
+| **Dot Phrase (SmartPhrase)** | Shortcut text that expands into a standard phrase or template, improving efficiency and partial consistency in documentation. | Semi-structured | “.covidscreen” expanding into screening questions |
+| **Smart Form** | An EMR-based tool for structured data capture, often including decision support. Can auto-populate notes with data from the patient record. | Structured | COVID intake form |
+| **Flowsheet** | A tool for capturing discrete values in a consistent format, making entry and extraction easier. | Structured | Vitals flowsheet |
+| **Flag** | A binary marker, often generated by algorithms, indicating the presence or absence of a condition or trait. | Derived (Binary) | CDW-R substance use disorder flag |
+| **Indicator** | A simple yes/no field in Epic representing a specific attribute. | Binary | “Is patient pregnant?” (Y/N) |
 
-| **Data Terms** | **Details**  | **Data type** |**Example**|
-| :----------- | :----------- |:----------- |:----------- |
-| Clinical Phenotype | An observable clinical condition or characteristic that can be identified by querying the electronic health record for a defined set of data elements  |Derived| CDW-R housing algorithm|
-|Free Text| often narrative text; no data entry control. May include misinformation, misclassification, and issues such as spelling errors| Unstructured| clinical notes|
-|Dot phrase (also referred to as ‘smartphrase’)|Allows user to type a few characters that automatically expand into a longer phrase, paragraph, or template. Allows common/standardized text, sections, and/or instructions to populate, thereby minimally controling standardization of the note format.|Semi-structured| example|
-|Smart form| An EMR-based clinical workflow tool to organize data capture, standardize encounter documentation, and incorporate decision support and/or recommendations for care. Can include functionality to automatically populate the note with data captured elsewhere in the patient’s medical record. Used across teams or clinics/departments to increase standardization in charting/notes| Structured| COVID intake|
-|Flowsheet|Tool that collects discrete data in a particular format. Allows for standard data entry and easy data extraction.|Structured|Vitals|
-|Flag|Term used for a mechanism leveraging various data available in Epic via phenotyping that alerts of the presence (or absence) of a particular condition, situation, need, problem in the data|Derived, Binary|CDW-R SUD algorithm|
-|Indicator|Y/N field in Epic|Binary|example|
 
 ---
 
 ## Data Storage and Sources
 
+Understanding storage and sources helps researchers know **where their data comes from and how it is structured**. Flat files are rare but may be used for small extracts, relational databases capture the complexity of patient care, and warehouses integrate multiple inputs for research. Most CDW-R datasets are drawn from the Research Data Warehouse, which combines clinical, operational, and external data into a consistent format designed for research use.
 ### Data Storage Types
 
-| **Data Type**          | **Definition**                                                                                   | **Use Case**                                  | **Key Features/Notes**                                                                                                                   |
-|-------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| Flat Files              | Simple, two-dimensional tables (e.g., CSV, Excel).                                             | Small datasets, quick analyses.             | Difficult to manage relationships between data points. The CDW-R rarely delivers data in flat files; study teams are expected to transform data as necessary. |
-| Relational Databases    | Data stored in structured tables with defined relationships (e.g., Epic Clarity).              | Managing complex datasets with relationships (e.g., patients, visits, labs). | Tables are linked using primary and foreign keys. SQL is used to query data.                                                           |
-| Data Warehouses         | Central repositories for integrating data from multiple sources (e.g., Epic Caboodle).         | Long-term storage, large-scale analytics, and multi-departmental research.   | The CDW-R has built a bespoke Research Data Warehouse leveraging Epic’s Clarity and Caboodle, as well as integrating external and legacy data sources. |
+| **Data Type**        | **Definition** | **Use Case** | **Key Notes** |
+|-----------------------|----------------|--------------|---------------|
+| **Flat Files**        | Simple two-dimensional tables such as CSV or Excel. | Small datasets or quick exploratory work. | Hard to manage relationships between data points. The CDW-R rarely delivers data this way; study teams are expected to handle transformations if needed. |
+| **Relational Databases** | Data stored in structured tables with defined relationships (e.g., Epic Clarity). | Managing complex datasets with multiple entities (patients, visits, labs). | Tables are linked with primary and foreign keys. Data is queried using SQL. |
+| **Data Warehouses**   | Central repositories that integrate data from multiple sources (e.g., Epic Caboodle). | Large-scale analytics, long-term storage, and cross-departmental research. | The CDW-R maintains a Research Data Warehouse that draws on Clarity, Caboodle, and selected external or legacy sources. |
+
+---
 
 ### Data Sources
 
-| **Source**                  | **Definition**                                                                                     | **Examples**                                                                                  |
-|-----------------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Electronic Health Records (EHRs) | Comprehensive records of patient interactions with healthcare systems.                          | Epic Hyperspace, Chronicles                                                                   |
-| Data Warehouses             | Aggregated data from operational systems, designed for analytics.                                  | Caboodle                                                                                     |
-| Public Data Sets            | National databases, registries, and de-identified datasets.                                        | Claims data, CDC datasets                                                                    |
-| External Sources            | Data collected outside traditional clinical systems, often including patient-reported or device-generated information. | Patient-reported outcomes, wearable devices, social determinants of health                   |
-
+| **Source** | **Definition** | **Examples** |
+|------------|----------------|--------------|
+| **Electronic Health Records (EHRs)** | Comprehensive records of patient interactions with healthcare systems. | Epic Hyperspace, Chronicles |
+| **Data Warehouses** | Aggregated data from operational systems, structured for analytics and research. | Caboodle |
+| **Public Datasets** | National databases, registries, or de-identified data available for research. | Claims data, CDC datasets |
+| **External Sources** | Data collected outside traditional clinical systems. | Patient-reported outcomes, wearable devices, social determinants of health |
 
 ---
 
