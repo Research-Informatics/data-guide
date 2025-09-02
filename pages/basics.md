@@ -1,6 +1,9 @@
 ---
 title: Data Literacy Basics
 layout: default
+status: Ready for pw's review
+advanced_by: mh
+assigned_reviewer: pw
 ---
 Data literacy is the ability to read, understand, and communicate data as information. For researchers, it means being able to:
 
