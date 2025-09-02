@@ -1,7 +1,7 @@
 ---
 title: Patient Demographics
 layout: default
-parent: Available Data
+parent: Available Data in the Research Data Warehouse
 nav_order: 1
 ---
 Demographics represent foundational data in clinical research, capturing key attributes such as age, sex, race, ethnicity, language, and other socio-environmental factors. These variables provide critical context for understanding patient populations. Demographics define the baseline composition of study populations, aiding in subgroup analyses and highlighting variations across age, race, gender, and other attributes.
