@@ -2,37 +2,57 @@
 title: Using Clinical Data for Research
 layout: default
 permalink: /using-clinical-data-research/
+status: in process
+advanced_by: na
+assigned_reviewer: na
 ---
 
 ### Using Clinical Data for Research
 
-Clinical data is a valuable asset for research, but utilizing it effectively requires a structured approach. This section provides guidance on identifying a cohort of interest, defining the required fields for cohort identification, and working with the CDW-R to prepare research-ready datasets. It also highlights the importance of de-identification and anonymization in maintaining compliance and protecting patient privacy.
+Clinical data is a valuable resource for research, but using it effectively requires a structured approach. This section provides guidance on identifying a study cohort, defining the data you need, and working with the CDW-R to create research-ready datasets. It also highlights the importance of protecting patient privacy.
+
 
 #### Identifying a Cohort of Interest
-Identifying your cohort of interest is the first step in the research process. This involves specifying the population you wish to study based on criteria relevant to your research question.
+The first step in most studies is defining the population you want to study.  
 
-- **Define the Cohort Population**:  
-  Work with your research team to outline the characteristics of the patients you wish to include in your study. Consider factors such as:
-  - Diagnoses (e.g., ICD-10 codes for a specific condition)
-  - Procedures (e.g., CPT codes for surgical interventions)
-  - Demographics (e.g., age, sex, geographic location)
-  - Encounter types (e.g., inpatient, outpatient)
-  - Timeframe of interest (e.g., patients seen in the last 5 years). Note the timeframe to derive your cohort may differ from the timeframe of data of interest. (e.g., you may want patients meeting criteria between 2022-2023, and you want data from 2021-2024 for this cohort.)
+- **Define the cohort population**: consider factors such as:  
+  - Diagnoses (e.g., ICD-10 codes for a specific condition)  
+  - Procedures (e.g., CPT codes for surgeries)  
+  - Demographics (e.g., age, sex, geographic location)  
+  - Encounter types (e.g., inpatient, outpatient)  
+  - Timeframe (e.g., patients seen in the last 5 years)  
 
-Once you’ve identified the cohort of interest, consult with the CDW-R to validate your criteria and refine your query. This collaboration ensures your cohort definition is accurate and aligned with available data.
+*Note: the timeframe for identifying the cohort may differ from the timeframe for collecting study data.*  
+
+Once you have a draft definition, consult the CDW-R team. They can validate your criteria and ensure your cohort is both accurate and feasible to extract.  
 
 #### Defining Data Fields for the Cohort
-After identifying your cohort, determine the specific data elements you need for analysis. These fields may differ from those used for cohort identification and should be tailored to your study objectives.
+Next, decide what data you need about the cohort. These fields may be different from those used to identify the population.  
 
-- **Examples of Data Fields for Analysis**:
-  - Demographics (e.g., age, sex, race/ethnicity)
-  - Lab results (e.g., hemoglobin levels, creatinine values)
-  - Medications (e.g., prescription details, administration records)
-  - Procedures (e.g., CPT codes, surgical details)
-  - Vital signs (e.g., blood pressure, heart rate)
+- **Common data fields**:  
+  - Demographics (e.g., age, sex, race/ethnicity)  
+  - Lab results (e.g., hemoglobin, creatinine)  
+  - Medications (e.g., prescriptions, administrations)  
+  - Procedures (e.g., CPT codes, surgical details)  
+  - Vital signs (e.g., blood pressure, heart rate)  
 
-- **Work with the CDW-R**:  
-  Provide the CDW-R with a detailed list of required data fields for your cohort. They will assist in extracting and preparing the dataset, ensuring data quality and completeness.
+Provide the CDW-R with a clear list of the elements required. They will help extract and prepare the dataset, ensuring completeness and quality.  
+
+> **Note:** The CDW-R follows the *minimum necessary* rule, which means we provide only the data elements required to answer your research question. Study teams are encouraged to request only what is essential, but also to think carefully about which elements are needed to ensure the analysis is robust and meaningful. Being specific helps protect patient privacy and improves the quality of the dataset you receive.
+
+
+<!--## Protecting Patient Privacy
+
+Maintaining confidentiality and regulatory compliance is critical. All research datasets go through de-identification or anonymization processes before delivery.  
+
+- **De-identification**: removal of direct identifiers (e.g., name, MRN).  
+- **Anonymization**: generalization or masking (e.g., date shifting, geographic aggregation).  
+
+Work with the CDW-R to ensure the appropriate level of protection for your study.  
+
+---
+
+By following this process—and partnering with the CDW-R—you can create datasets that are accurate, compliant, and ready for meaningful research.  
 
 <!-- #### 3. Preparing Datasets for Analysis
 Once the CDW-R extracts your data, you may need to prepare it further for analysis. Common steps include:
@@ -56,4 +76,5 @@ Maintaining patient privacy and complying with regulations are critical responsi
   - Apply date-shifting or geographic masking as needed.
   -->
 
-By following this structured approach and leveraging the expertise of the CDW-R, researchers can effectively use clinical data to generate meaningful insights while adhering to ethical and regulatory standards.
+
+By following this process—and partnering with the CDW-R—you can create datasets that are accurate, compliant, and ready for meaningful research.
