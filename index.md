@@ -5,8 +5,6 @@ status: Ready for pw's review
 advanced_by: mh
 assigned_reviewer: pw
 ---
-January 2025 update: This website is being actively updated. We will continue to add information and content through the month; please check back for updates.
-
 ## Using clinical data for Research
 Unlocking the potential of clinical data can transform how we understand and improve patient care. Whether you are an experienced investigator or new to working with research data, this resource is here to guide you in using clinical data effectively, ethically, and responsibly.  
 
