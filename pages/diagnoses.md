@@ -8,6 +8,7 @@ Diagnoses in healthcare encompass various classifications that capture a patient
 **ED complaint and reason for visit are outlined in the encounter section.**
 
 ### Problem List
+The Problem List identifies patient-level diagnoses with an onset date and occasionally dates of resolution if applicable. 
 
 ### Encounter Diagnoses
 Encounter diagnoses are the documented medical conditions, symptoms, or reasons associated with a specific patient encounter in a healthcare setting. These diagnoses provide context for the care delivered during the encounter. While primary diagnosis are flagged, no other categorization is provided for secondary, etc.
@@ -32,5 +33,6 @@ Encounter diagnoses are the documented medical conditions, symptoms, or reasons 
 
 
 ### Past Medical History
+Past Medical History is generally patient-reported information about personal and familiar medical history. 
 
-### Comorbidty Indicies
+### Comorbidity Indices
